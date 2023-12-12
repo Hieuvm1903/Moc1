@@ -1,0 +1,1675 @@
+2023-12-07 09:20:24.065 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-12-07 09:20:24.275 +07:00 [DBG] Hosting starting
+2023-12-07 09:20:24.361 +07:00 [INF] User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-07 09:20:24.370 +07:00 [DBG] Reading data from file 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys\key-89ab2015-9967-47e1-965a-65d13ae4bf9f.xml'.
+2023-12-07 09:20:24.413 +07:00 [DBG] Found key {89ab2015-9967-47e1-965a-65d13ae4bf9f}.
+2023-12-07 09:20:24.433 +07:00 [DBG] Considering key {89ab2015-9967-47e1-965a-65d13ae4bf9f} with expiration date 2024-02-25 02:03:06Z as default key.
+2023-12-07 09:20:24.437 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-12-07 09:20:24.439 +07:00 [DBG] Decrypting secret element using Windows DPAPI.
+2023-12-07 09:20:24.441 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-12-07 09:20:24.443 +07:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2023-12-07 09:20:24.445 +07:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2023-12-07 09:20:24.446 +07:00 [DBG] Using key {89ab2015-9967-47e1-965a-65d13ae4bf9f} as the default key.
+2023-12-07 09:20:24.447 +07:00 [DBG] Key ring with default key {89ab2015-9967-47e1-965a-65d13ae4bf9f} was loaded during application startup.
+2023-12-07 09:20:25.201 +07:00 [INF] Now listening on: https://localhost:7189
+2023-12-07 09:20:25.201 +07:00 [INF] Now listening on: http://localhost:5275
+2023-12-07 09:20:25.201 +07:00 [DBG] Loaded hosting startup assembly MOC1
+2023-12-07 09:20:25.201 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-12-07 09:20:25.201 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-12-07 09:20:25.202 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-07 09:20:25.202 +07:00 [INF] Hosting environment: Development
+2023-12-07 09:20:25.202 +07:00 [INF] Content root path: D:\MOC1
+2023-12-07 09:20:25.202 +07:00 [DBG] Hosting started
+2023-12-07 09:20:25.641 +07:00 [DBG] Connection id "0HMVMPC9BV5A1" accepted.
+2023-12-07 09:20:25.642 +07:00 [DBG] Connection id "0HMVMPC9BV5A1" started.
+2023-12-07 09:20:25.695 +07:00 [DBG] Connection id "0HMVMPC9BV5A2" accepted.
+2023-12-07 09:20:25.696 +07:00 [DBG] Connection id "0HMVMPC9BV5A2" started.
+2023-12-07 09:20:26.740 +07:00 [DBG] Connection id "0HMVMPC9BV5A3" accepted.
+2023-12-07 09:20:26.741 +07:00 [DBG] Connection id "0HMVMPC9BV5A3" started.
+2023-12-07 09:20:26.989 +07:00 [DBG] Connection 0HMVMPC9BV5A3 established using the following protocol: "Tls13"
+2023-12-07 09:20:27.508 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7189/swagger/index.html - -
+2023-12-07 09:20:27.651 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-12-07 09:20:27.748 +07:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-12-07 09:20:27.749 +07:00 [DBG] Request did not match any endpoints
+2023-12-07 09:20:28.082 +07:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-12-07 09:20:28.674 +07:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-12-07 09:20:28.686 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7189/swagger/index.html - - - 200 - text/html;charset=utf-8 1182.7344ms
+2023-12-07 09:20:28.858 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7189/_framework/aspnetcore-browser-refresh.js - -
+2023-12-07 09:20:28.885 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7189/_framework/aspnetcore-browser-refresh.js - - - 200 12340 application/javascript;+charset=utf-8 26.3635ms
+2023-12-07 09:20:29.015 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7189/_vs/browserLink - -
+2023-12-07 09:20:29.124 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7189/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 108.5447ms
+2023-12-07 09:20:29.401 +07:00 [DBG] Connection id "0HMVMPC9BV5A3" received FIN.
+2023-12-07 09:20:29.405 +07:00 [DBG] The connection queue processing loop for 0HMVMPC9BV5A3 completed.
+2023-12-07 09:20:29.412 +07:00 [DBG] Connection id "0HMVMPC9BV5A3" is closed. The last processed stream ID was 5.
+2023-12-07 09:20:29.414 +07:00 [DBG] Connection id "0HMVMPC9BV5A3" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-12-07 09:20:29.421 +07:00 [DBG] Connection id "0HMVMPC9BV5A3" stopped.
+2023-12-07 09:20:30.732 +07:00 [DBG] Connection id "0HMVMPC9BV5A4" accepted.
+2023-12-07 09:20:30.732 +07:00 [DBG] Connection id "0HMVMPC9BV5A4" started.
+2023-12-07 09:20:30.741 +07:00 [DBG] Connection 0HMVMPC9BV5A4 established using the following protocol: "Tls13"
+2023-12-07 09:20:30.746 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7189/swagger/v1/swagger.json - -
+2023-12-07 09:20:30.749 +07:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-12-07 09:20:30.749 +07:00 [DBG] Request did not match any endpoints
+2023-12-07 09:20:31.344 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7189/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 597.7010ms
+2023-12-07 09:20:34.409 +07:00 [DBG] Connection id "0HMVMPC9BV5A4" received FIN.
+2023-12-07 09:20:34.409 +07:00 [DBG] Connection id "0HMVMPC9BV5A4" is closed. The last processed stream ID was 1.
+2023-12-07 09:20:34.409 +07:00 [DBG] Connection id "0HMVMPC9BV5A4" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-12-07 09:20:34.410 +07:00 [DBG] The connection queue processing loop for 0HMVMPC9BV5A4 completed.
+2023-12-07 09:20:34.410 +07:00 [DBG] Connection id "0HMVMPC9BV5A4" stopped.
+2023-12-07 09:20:35.692 +07:00 [DBG] Authentication of the HTTPS connection timed out.
+2023-12-07 09:20:35.693 +07:00 [DBG] Connection id "0HMVMPC9BV5A1" stopped.
+2023-12-07 09:20:35.693 +07:00 [DBG] Connection id "0HMVMPC9BV5A1" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-12-07 09:20:35.708 +07:00 [DBG] Authentication of the HTTPS connection timed out.
+2023-12-07 09:20:35.708 +07:00 [DBG] Connection id "0HMVMPC9BV5A2" stopped.
+2023-12-07 09:20:35.708 +07:00 [DBG] Connection id "0HMVMPC9BV5A2" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-12-07 09:20:48.931 +07:00 [DBG] Connection id "0HMVMPC9BV5A5" accepted.
+2023-12-07 09:20:48.931 +07:00 [DBG] Connection id "0HMVMPC9BV5A5" started.
+2023-12-07 09:20:48.939 +07:00 [DBG] Connection 0HMVMPC9BV5A5 established using the following protocol: "Tls13"
+2023-12-07 09:20:48.940 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7189/api/UsersAuth/login application/json-patch+json 53
+2023-12-07 09:20:48.947 +07:00 [DBG] 1 candidate(s) found for the request path '/api/UsersAuth/login'
+2023-12-07 09:20:48.952 +07:00 [DBG] Endpoint 'MOC1.Controllers.UsersController.Login (MOC1)' with route pattern 'api/UsersAuth/login' is valid for the request path '/api/UsersAuth/login'
+2023-12-07 09:20:48.953 +07:00 [DBG] Request matched endpoint 'MOC1.Controllers.UsersController.Login (MOC1)'
+2023-12-07 09:20:48.957 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-12-07 09:20:49.577 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2023-12-07 09:20:49.581 +07:00 [INF] Executing endpoint 'MOC1.Controllers.UsersController.Login (MOC1)'
+2023-12-07 09:20:49.619 +07:00 [INF] Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(MOC1.DTO.LoginRequestDTO) on controller MOC1.Controllers.UsersController (MOC1).
+2023-12-07 09:20:49.622 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-12-07 09:20:49.622 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-12-07 09:20:49.623 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.Filters.ResponseCacheFilter"]
+2023-12-07 09:20:49.623 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-12-07 09:20:49.623 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-12-07 09:20:49.625 +07:00 [DBG] Executing controller factory for controller MOC1.Controllers.UsersController (MOC1)
+2023-12-07 09:20:50.110 +07:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-12-07 09:20:50.139 +07:00 [DBG] Executed controller factory for controller MOC1.Controllers.UsersController (MOC1)
+2023-12-07 09:20:50.191 +07:00 [DBG] Attempting to bind parameter 'model' of type 'MOC1.DTO.LoginRequestDTO' ...
+2023-12-07 09:20:50.194 +07:00 [DBG] Attempting to bind parameter 'model' of type 'MOC1.DTO.LoginRequestDTO' using the name '' in request data ...
+2023-12-07 09:20:50.195 +07:00 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json-patch+json'.
+2023-12-07 09:20:50.196 +07:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json-patch+json'.
+2023-12-07 09:20:50.249 +07:00 [DBG] Connection id "0HMVMPC9BV5A5", Request id "0HMVMPC9BV5A5:00000001": started reading request body.
+2023-12-07 09:20:50.249 +07:00 [DBG] Connection id "0HMVMPC9BV5A5", Request id "0HMVMPC9BV5A5:00000001": done reading request body.
+2023-12-07 09:20:50.366 +07:00 [DBG] Done attempting to bind parameter 'model' of type 'MOC1.DTO.LoginRequestDTO'.
+2023-12-07 09:20:50.366 +07:00 [DBG] Done attempting to bind parameter 'model' of type 'MOC1.DTO.LoginRequestDTO'.
+2023-12-07 09:20:50.366 +07:00 [DBG] Attempting to validate the bound parameter 'model' of type 'MOC1.DTO.LoginRequestDTO' ...
+2023-12-07 09:20:50.378 +07:00 [DBG] Done attempting to validate the bound parameter 'model' of type 'MOC1.DTO.LoginRequestDTO'.
+2023-12-07 09:20:50.967 +07:00 [DBG] Entity Framework Core 7.0.14 initialized 'ApplicationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.14' with options: None
+2023-12-07 09:20:51.177 +07:00 [DBG] Compiling query expression: 
+'DbSet<LocalUser>()
+    .FirstOrDefault(s => s.UserName.ToLower() == __ToLower_0)'
+2023-12-07 09:20:51.415 +07:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<LocalUser>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: LocalUser.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: LocalUser.Name (string) Required, 1], [Property: LocalUser.Password (string) Required, 2], [Property: LocalUser.Role (string) Required, 3], [Property: LocalUser.UserName (string) Required, 4] }
+        SELECT TOP(1) l.Id, l.Name, l.Password, l.Role, l.UserName
+        FROM LocalUsers AS l
+        WHERE LOWER(l.UserName) == @__ToLower_0), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, LocalUser>, 
+    MOC1.Data.ApplicationContext, 
+    False, 
+    False, 
+    True
+)
+    .SingleOrDefault()'
+2023-12-07 09:20:51.461 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-12-07 09:20:51.463 +07:00 [DBG] Creating DbConnection.
+2023-12-07 09:20:51.494 +07:00 [DBG] Created DbConnection. (27ms).
+2023-12-07 09:20:51.502 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (42ms).
+2023-12-07 09:20:51.517 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (58ms).
+2023-12-07 09:20:51.520 +07:00 [DBG] Opening connection to database 'VillaDb' on server '.'.
+2023-12-07 09:20:52.486 +07:00 [DBG] Opened connection to database 'VillaDb' on server '.'.
+2023-12-07 09:20:52.499 +07:00 [DBG] Executing DbCommand [Parameters=[@__ToLower_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [l].[Id], [l].[Name], [l].[Password], [l].[Role], [l].[UserName]
+FROM [LocalUsers] AS [l]
+WHERE LOWER([l].[UserName]) = @__ToLower_0
+2023-12-07 09:20:52.633 +07:00 [INF] Executed DbCommand (141ms) [Parameters=[@__ToLower_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [l].[Id], [l].[Name], [l].[Password], [l].[Role], [l].[UserName]
+FROM [LocalUsers] AS [l]
+WHERE LOWER([l].[UserName]) = @__ToLower_0
+2023-12-07 09:20:52.657 +07:00 [DBG] Context 'ApplicationContext' started tracking 'LocalUser' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-12-07 09:20:52.677 +07:00 [DBG] Closing data reader to 'VillaDb' on server '.'.
+2023-12-07 09:20:52.686 +07:00 [DBG] A data reader for 'VillaDb' on server '.' is being disposed after spending 47ms reading results.
+2023-12-07 09:20:52.692 +07:00 [DBG] Closing connection to database 'VillaDb' on server '.'.
+2023-12-07 09:20:52.699 +07:00 [DBG] Closed connection to database 'VillaDb' on server '.' (6ms).
+2023-12-07 09:20:53.083 +07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2023-12-07 09:20:53.084 +07:00 [DBG] No information found on request to perform content negotiation.
+2023-12-07 09:20:53.085 +07:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-12-07 09:20:53.085 +07:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-12-07 09:20:53.086 +07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-12-07 09:20:53.086 +07:00 [INF] Executing OkObjectResult, writing value of type 'MOC1.Models.APIResponse'.
+2023-12-07 09:20:53.130 +07:00 [INF] Executed action MOC1.Controllers.UsersController.Login (MOC1) in 3505.0152ms
+2023-12-07 09:20:53.130 +07:00 [INF] Executed endpoint 'MOC1.Controllers.UsersController.Login (MOC1)'
+2023-12-07 09:20:53.132 +07:00 [DBG] 'ApplicationContext' disposed.
+2023-12-07 09:20:53.135 +07:00 [DBG] Disposing connection to database 'VillaDb' on server '.'.
+2023-12-07 09:20:53.137 +07:00 [DBG] Disposed connection to database '' on server '' (1ms).
+2023-12-07 09:20:53.138 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7189/api/UsersAuth/login application/json-patch+json 53 - 200 359 application/json;+charset=utf-8 4197.3555ms
+2023-12-07 09:20:54.453 +07:00 [DBG] Connection id "0HMVMPC9BV5A5" received FIN.
+2023-12-07 09:20:54.453 +07:00 [DBG] Connection id "0HMVMPC9BV5A5" is closed. The last processed stream ID was 1.
+2023-12-07 09:20:54.453 +07:00 [DBG] Connection id "0HMVMPC9BV5A5" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-12-07 09:20:54.454 +07:00 [DBG] The connection queue processing loop for 0HMVMPC9BV5A5 completed.
+2023-12-07 09:20:54.454 +07:00 [DBG] Connection id "0HMVMPC9BV5A5" stopped.
+2023-12-07 09:21:14.583 +07:00 [DBG] Connection id "0HMVMPC9BV5A6" accepted.
+2023-12-07 09:21:14.584 +07:00 [DBG] Connection id "0HMVMPC9BV5A6" started.
+2023-12-07 09:21:14.592 +07:00 [DBG] Connection 0HMVMPC9BV5A6 established using the following protocol: "Tls13"
+2023-12-07 09:21:14.604 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7189/api/Villa - -
+2023-12-07 09:21:14.608 +07:00 [DBG] 1 candidate(s) found for the request path '/api/Villa'
+2023-12-07 09:21:14.608 +07:00 [DBG] Endpoint 'MOC1.Controllers.VillaController.GetVillas (MOC1)' with route pattern 'api/Villa' is valid for the request path '/api/Villa'
+2023-12-07 09:21:14.609 +07:00 [DBG] Request matched endpoint 'MOC1.Controllers.VillaController.GetVillas (MOC1)'
+2023-12-07 09:21:14.609 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-12-07 09:21:14.663 +07:00 [DBG] Successfully validated the token.
+2023-12-07 09:21:14.665 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2023-12-07 09:21:14.670 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The AuthorizationPolicy named: 'test' was not found.
+   at Microsoft.AspNetCore.Authorization.AuthorizationPolicy.CombineAsync(IAuthorizationPolicyProvider policyProvider, IEnumerable`1 authorizeData, IEnumerable`1 policies)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-12-07 09:21:14.792 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7189/api/Villa - - - 500 - text/plain;+charset=utf-8 188.3313ms
+2023-12-07 09:21:19.487 +07:00 [DBG] Connection id "0HMVMPC9BV5A6" received FIN.
+2023-12-07 09:21:19.488 +07:00 [DBG] Connection id "0HMVMPC9BV5A6" is closed. The last processed stream ID was 1.
+2023-12-07 09:21:19.488 +07:00 [DBG] Connection id "0HMVMPC9BV5A6" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-12-07 09:21:19.488 +07:00 [DBG] The connection queue processing loop for 0HMVMPC9BV5A6 completed.
+2023-12-07 09:21:19.488 +07:00 [DBG] Connection id "0HMVMPC9BV5A6" stopped.
+2023-12-07 13:36:13.106 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-12-07 13:36:13.248 +07:00 [DBG] Hosting starting
+2023-12-07 13:36:13.328 +07:00 [INF] User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-07 13:36:13.332 +07:00 [DBG] Reading data from file 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys\key-89ab2015-9967-47e1-965a-65d13ae4bf9f.xml'.
+2023-12-07 13:36:13.370 +07:00 [DBG] Found key {89ab2015-9967-47e1-965a-65d13ae4bf9f}.
+2023-12-07 13:36:13.381 +07:00 [DBG] Considering key {89ab2015-9967-47e1-965a-65d13ae4bf9f} with expiration date 2024-02-25 02:03:06Z as default key.
+2023-12-07 13:36:13.383 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-12-07 13:36:13.385 +07:00 [DBG] Decrypting secret element using Windows DPAPI.
+2023-12-07 13:36:13.386 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-12-07 13:36:13.388 +07:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2023-12-07 13:36:13.389 +07:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2023-12-07 13:36:13.390 +07:00 [DBG] Using key {89ab2015-9967-47e1-965a-65d13ae4bf9f} as the default key.
+2023-12-07 13:36:13.391 +07:00 [DBG] Key ring with default key {89ab2015-9967-47e1-965a-65d13ae4bf9f} was loaded during application startup.
+2023-12-07 13:36:13.660 +07:00 [INF] Now listening on: https://localhost:7189
+2023-12-07 13:36:13.660 +07:00 [INF] Now listening on: http://localhost:5275
+2023-12-07 13:36:13.661 +07:00 [DBG] Loaded hosting startup assembly MOC1
+2023-12-07 13:36:13.661 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-12-07 13:36:13.661 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-12-07 13:36:13.661 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-07 13:36:13.661 +07:00 [INF] Hosting environment: Development
+2023-12-07 13:36:13.661 +07:00 [INF] Content root path: D:\MOC1
+2023-12-07 13:36:13.661 +07:00 [DBG] Hosting started
+2023-12-07 13:36:13.811 +07:00 [DBG] Connection id "0HMVMTR7FHCOI" received FIN.
+2023-12-07 13:36:13.816 +07:00 [DBG] Connection id "0HMVMTR7FHCOI" accepted.
+2023-12-07 13:36:13.817 +07:00 [DBG] Connection id "0HMVMTR7FHCOI" started.
+2023-12-07 13:36:13.837 +07:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-12-07 13:36:14.254 +07:00 [DBG] Connection id "0HMVMTR7FHCOI" stopped.
+2023-12-07 13:36:14.257 +07:00 [DBG] Connection id "0HMVMTR7FHCOI" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-12-07 13:36:14.888 +07:00 [DBG] Connection id "0HMVMTR7FHCOJ" accepted.
+2023-12-07 13:36:14.891 +07:00 [DBG] Connection id "0HMVMTR7FHCOJ" started.
+2023-12-07 13:36:15.113 +07:00 [DBG] Connection 0HMVMTR7FHCOJ established using the following protocol: "Tls13"
+2023-12-07 13:36:15.367 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7189/swagger/index.html - -
+2023-12-07 13:36:15.495 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-12-07 13:36:15.570 +07:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-12-07 13:36:15.571 +07:00 [DBG] Request did not match any endpoints
+2023-12-07 13:36:15.898 +07:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-12-07 13:36:16.304 +07:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-12-07 13:36:16.314 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7189/swagger/index.html - - - 200 - text/html;charset=utf-8 955.6824ms
+2023-12-07 13:36:16.569 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7189/_framework/aspnetcore-browser-refresh.js - -
+2023-12-07 13:36:16.569 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7189/_vs/browserLink - -
+2023-12-07 13:36:16.606 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7189/_framework/aspnetcore-browser-refresh.js - - - 200 12340 application/javascript;+charset=utf-8 36.8202ms
+2023-12-07 13:36:16.634 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7189/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 64.4144ms
+2023-12-07 13:36:18.345 +07:00 [INF] Request starting HTTP/2 GET https://localhost:7189/swagger/v1/swagger.json - -
+2023-12-07 13:36:18.346 +07:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-12-07 13:36:18.346 +07:00 [DBG] Request did not match any endpoints
+2023-12-07 13:36:18.732 +07:00 [INF] Request finished HTTP/2 GET https://localhost:7189/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 386.3285ms
+2023-12-07 13:36:19.742 +07:00 [DBG] Connection id "0HMVMTR7FHCOJ" received FIN.
+2023-12-07 13:36:19.747 +07:00 [DBG] The connection queue processing loop for 0HMVMTR7FHCOJ completed.
+2023-12-07 13:36:19.749 +07:00 [DBG] Connection id "0HMVMTR7FHCOJ" is closed. The last processed stream ID was 7.
+2023-12-07 13:36:19.749 +07:00 [DBG] Connection id "0HMVMTR7FHCOJ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-12-07 13:36:19.757 +07:00 [DBG] Connection id "0HMVMTR7FHCOJ" stopped.
+2023-12-07 13:36:33.697 +07:00 [DBG] Connection id "0HMVMTR7FHCOK" accepted.
+2023-12-07 13:36:33.698 +07:00 [DBG] Connection id "0HMVMTR7FHCOK" started.
+2023-12-07 13:36:33.708 +07:00 [DBG] Connection 0HMVMTR7FHCOK established using the following protocol: "Tls13"
+2023-12-07 13:36:33.713 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7189/api/UsersAuth/login application/json-patch+json 53
+2023-12-07 13:36:33.734 +07:00 [DBG] 1 candidate(s) found for the request path '/api/UsersAuth/login'
+2023-12-07 13:36:33.743 +07:00 [DBG] Endpoint 'MOC1.Controllers.UsersController.Login (MOC1)' with route pattern 'api/UsersAuth/login' is valid for the request path '/api/UsersAuth/login'
+2023-12-07 13:36:33.745 +07:00 [DBG] Request matched endpoint 'MOC1.Controllers.UsersController.Login (MOC1)'
+2023-12-07 13:36:33.748 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-12-07 13:36:35.547 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2023-12-07 13:36:35.556 +07:00 [INF] Executing endpoint 'MOC1.Controllers.UsersController.Login (MOC1)'
+2023-12-07 13:36:35.654 +07:00 [INF] Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(MOC1.DTO.LoginRequestDTO) on controller MOC1.Controllers.UsersController (MOC1).
+2023-12-07 13:36:35.659 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-12-07 13:36:35.659 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-12-07 13:36:35.660 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.Filters.ResponseCacheFilter"]
+2023-12-07 13:36:35.660 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-12-07 13:36:35.660 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-12-07 13:36:35.664 +07:00 [DBG] Executing controller factory for controller MOC1.Controllers.UsersController (MOC1)
+2023-12-07 13:36:36.617 +07:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-12-07 13:36:36.664 +07:00 [DBG] Executed controller factory for controller MOC1.Controllers.UsersController (MOC1)
+2023-12-07 13:36:36.765 +07:00 [DBG] Attempting to bind parameter 'model' of type 'MOC1.DTO.LoginRequestDTO' ...
+2023-12-07 13:36:36.769 +07:00 [DBG] Attempting to bind parameter 'model' of type 'MOC1.DTO.LoginRequestDTO' using the name '' in request data ...
+2023-12-07 13:36:36.771 +07:00 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json-patch+json'.
+2023-12-07 13:36:36.772 +07:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json-patch+json'.
+2023-12-07 13:36:36.876 +07:00 [DBG] Connection id "0HMVMTR7FHCOK", Request id "0HMVMTR7FHCOK:00000001": started reading request body.
+2023-12-07 13:36:36.877 +07:00 [DBG] Connection id "0HMVMTR7FHCOK", Request id "0HMVMTR7FHCOK:00000001": done reading request body.
+2023-12-07 13:36:37.096 +07:00 [DBG] Done attempting to bind parameter 'model' of type 'MOC1.DTO.LoginRequestDTO'.
+2023-12-07 13:36:37.097 +07:00 [DBG] Done attempting to bind parameter 'model' of type 'MOC1.DTO.LoginRequestDTO'.
+2023-12-07 13:36:37.097 +07:00 [DBG] Attempting to validate the bound parameter 'model' of type 'MOC1.DTO.LoginRequestDTO' ...
+2023-12-07 13:36:37.119 +07:00 [DBG] Done attempting to validate the bound parameter 'model' of type 'MOC1.DTO.LoginRequestDTO'.
+2023-12-07 13:36:38.623 +07:00 [DBG] Entity Framework Core 7.0.14 initialized 'ApplicationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.14' with options: None
+2023-12-07 13:36:39.165 +07:00 [DBG] Compiling query expression: 
+'DbSet<LocalUser>()
+    .FirstOrDefault(s => s.UserName.ToLower() == __ToLower_0)'
+2023-12-07 13:36:39.737 +07:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<LocalUser>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: LocalUser.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: LocalUser.Name (string) Required, 1], [Property: LocalUser.Password (string) Required, 2], [Property: LocalUser.Role (string) Required, 3], [Property: LocalUser.UserName (string) Required, 4] }
+        SELECT TOP(1) l.Id, l.Name, l.Password, l.Role, l.UserName
+        FROM LocalUsers AS l
+        WHERE LOWER(l.UserName) == @__ToLower_0), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, LocalUser>, 
+    MOC1.Data.ApplicationContext, 
+    False, 
+    False, 
+    True
+)
+    .SingleOrDefault()'
+2023-12-07 13:36:39.839 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-12-07 13:36:39.843 +07:00 [DBG] Creating DbConnection.
+2023-12-07 13:36:39.903 +07:00 [DBG] Created DbConnection. (52ms).
+2023-12-07 13:36:39.919 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (81ms).
+2023-12-07 13:36:39.941 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (106ms).
+2023-12-07 13:36:39.946 +07:00 [DBG] Opening connection to database 'VillaDb' on server '.'.
+2023-12-07 13:36:41.932 +07:00 [DBG] Opened connection to database 'VillaDb' on server '.'.
+2023-12-07 13:36:41.957 +07:00 [DBG] Executing DbCommand [Parameters=[@__ToLower_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [l].[Id], [l].[Name], [l].[Password], [l].[Role], [l].[UserName]
+FROM [LocalUsers] AS [l]
+WHERE LOWER([l].[UserName]) = @__ToLower_0
+2023-12-07 13:36:42.417 +07:00 [INF] Executed DbCommand (466ms) [Parameters=[@__ToLower_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [l].[Id], [l].[Name], [l].[Password], [l].[Role], [l].[UserName]
+FROM [LocalUsers] AS [l]
+WHERE LOWER([l].[UserName]) = @__ToLower_0
+2023-12-07 13:36:42.459 +07:00 [DBG] Context 'ApplicationContext' started tracking 'LocalUser' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-12-07 13:36:42.509 +07:00 [DBG] Closing data reader to 'VillaDb' on server '.'.
+2023-12-07 13:36:42.525 +07:00 [DBG] A data reader for 'VillaDb' on server '.' is being disposed after spending 96ms reading results.
+2023-12-07 13:36:42.528 +07:00 [DBG] Closing connection to database 'VillaDb' on server '.'.
+2023-12-07 13:36:42.535 +07:00 [DBG] Closed connection to database 'VillaDb' on server '.' (6ms).
+2023-12-07 13:36:43.090 +07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2023-12-07 13:36:43.094 +07:00 [DBG] No information found on request to perform content negotiation.
+2023-12-07 13:36:43.094 +07:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-12-07 13:36:43.094 +07:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-12-07 13:36:43.097 +07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-12-07 13:36:43.098 +07:00 [INF] Executing OkObjectResult, writing value of type 'MOC1.Models.APIResponse'.
+2023-12-07 13:36:43.177 +07:00 [INF] Executed action MOC1.Controllers.UsersController.Login (MOC1) in 7509.7517ms
+2023-12-07 13:36:43.178 +07:00 [INF] Executed endpoint 'MOC1.Controllers.UsersController.Login (MOC1)'
+2023-12-07 13:36:43.183 +07:00 [DBG] 'ApplicationContext' disposed.
+2023-12-07 13:36:43.190 +07:00 [DBG] Disposing connection to database 'VillaDb' on server '.'.
+2023-12-07 13:36:43.193 +07:00 [DBG] Disposed connection to database '' on server '' (2ms).
+2023-12-07 13:36:43.194 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7189/api/UsersAuth/login application/json-patch+json 53 - 200 359 application/json;+charset=utf-8 9481.6063ms
+2023-12-07 13:36:44.783 +07:00 [DBG] Connection id "0HMVMTR7FHCOK" received FIN.
+2023-12-07 13:36:44.783 +07:00 [DBG] Connection id "0HMVMTR7FHCOK" is closed. The last processed stream ID was 1.
+2023-12-07 13:36:44.783 +07:00 [DBG] Connection id "0HMVMTR7FHCOK" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-12-07 13:36:44.784 +07:00 [DBG] The connection queue processing loop for 0HMVMTR7FHCOK completed.
+2023-12-07 13:36:44.784 +07:00 [DBG] Connection id "0HMVMTR7FHCOK" stopped.
+2023-12-07 13:37:24.015 +07:00 [DBG] Connection id "0HMVMTR7FHCOL" accepted.
+2023-12-07 13:37:24.015 +07:00 [DBG] Connection id "0HMVMTR7FHCOL" started.
+2023-12-07 13:37:24.035 +07:00 [DBG] Connection 0HMVMTR7FHCOL established using the following protocol: "Tls13"
+2023-12-07 13:37:24.043 +07:00 [INF] Request starting HTTP/2 POST https://localhost:7189/api/UsersAuth/login application/json-patch+json 54
+2023-12-07 13:37:24.050 +07:00 [DBG] 1 candidate(s) found for the request path '/api/UsersAuth/login'
+2023-12-07 13:37:24.051 +07:00 [DBG] Endpoint 'MOC1.Controllers.UsersController.Login (MOC1)' with route pattern 'api/UsersAuth/login' is valid for the request path '/api/UsersAuth/login'
+2023-12-07 13:37:24.051 +07:00 [DBG] Request matched endpoint 'MOC1.Controllers.UsersController.Login (MOC1)'
+2023-12-07 13:37:24.051 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-12-07 13:37:24.052 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2023-12-07 13:37:24.052 +07:00 [INF] Executing endpoint 'MOC1.Controllers.UsersController.Login (MOC1)'
+2023-12-07 13:37:24.053 +07:00 [INF] Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(MOC1.DTO.LoginRequestDTO) on controller MOC1.Controllers.UsersController (MOC1).
+2023-12-07 13:37:24.053 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-12-07 13:37:24.053 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-12-07 13:37:24.053 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.Filters.ResponseCacheFilter"]
+2023-12-07 13:37:24.053 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-12-07 13:37:24.053 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-12-07 13:37:24.053 +07:00 [DBG] Executing controller factory for controller MOC1.Controllers.UsersController (MOC1)
+2023-12-07 13:37:24.054 +07:00 [DBG] Executed controller factory for controller MOC1.Controllers.UsersController (MOC1)
+2023-12-07 13:37:24.054 +07:00 [DBG] Attempting to bind parameter 'model' of type 'MOC1.DTO.LoginRequestDTO' ...
+2023-12-07 13:37:24.055 +07:00 [DBG] Attempting to bind parameter 'model' of type 'MOC1.DTO.LoginRequestDTO' using the name '' in request data ...
+2023-12-07 13:37:24.055 +07:00 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json-patch+json'.
+2023-12-07 13:37:24.055 +07:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json-patch+json'.
+2023-12-07 13:37:24.055 +07:00 [DBG] Connection id "0HMVMTR7FHCOL", Request id "0HMVMTR7FHCOL:00000001": started reading request body.
+2023-12-07 13:37:24.055 +07:00 [DBG] Connection id "0HMVMTR7FHCOL", Request id "0HMVMTR7FHCOL:00000001": done reading request body.
+2023-12-07 13:37:24.055 +07:00 [DBG] Done attempting to bind parameter 'model' of type 'MOC1.DTO.LoginRequestDTO'.
+2023-12-07 13:37:24.055 +07:00 [DBG] Done attempting to bind parameter 'model' of type 'MOC1.DTO.LoginRequestDTO'.
+2023-12-07 13:37:24.055 +07:00 [DBG] Attempting to validate the bound parameter 'model' of type 'MOC1.DTO.LoginRequestDTO' ...
+2023-12-07 13:37:24.056 +07:00 [DBG] Done attempting to validate the bound parameter 'model' of type 'MOC1.DTO.LoginRequestDTO'.
+2023-12-07 13:37:24.072 +07:00 [DBG] Entity Framework Core 7.0.14 initialized 'ApplicationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.14' with options: None
+2023-12-07 13:37:24.080 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-12-07 13:37:24.080 +07:00 [DBG] Creating DbConnection.
+2023-12-07 13:37:24.080 +07:00 [DBG] Created DbConnection. (0ms).
+2023-12-07 13:37:24.080 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-12-07 13:37:24.080 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2023-12-07 13:37:24.080 +07:00 [DBG] Opening connection to database 'VillaDb' on server '.'.
+2023-12-07 13:37:24.082 +07:00 [DBG] Opened connection to database 'VillaDb' on server '.'.
+2023-12-07 13:37:24.083 +07:00 [DBG] Executing DbCommand [Parameters=[@__ToLower_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [l].[Id], [l].[Name], [l].[Password], [l].[Role], [l].[UserName]
+FROM [LocalUsers] AS [l]
+WHERE LOWER([l].[UserName]) = @__ToLower_0
+2023-12-07 13:37:24.090 +07:00 [INF] Executed DbCommand (7ms) [Parameters=[@__ToLower_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [l].[Id], [l].[Name], [l].[Password], [l].[Role], [l].[UserName]
+FROM [LocalUsers] AS [l]
+WHERE LOWER([l].[UserName]) = @__ToLower_0
+2023-12-07 13:37:24.091 +07:00 [DBG] Context 'ApplicationContext' started tracking 'LocalUser' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-12-07 13:37:24.092 +07:00 [DBG] Closing data reader to 'VillaDb' on server '.'.
+2023-12-07 13:37:24.092 +07:00 [DBG] A data reader for 'VillaDb' on server '.' is being disposed after spending 1ms reading results.
+2023-12-07 13:37:24.092 +07:00 [DBG] Closing connection to database 'VillaDb' on server '.'.
+2023-12-07 13:37:24.093 +07:00 [DBG] Closed connection to database 'VillaDb' on server '.' (0ms).
+2023-12-07 13:37:24.093 +07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2023-12-07 13:37:24.094 +07:00 [DBG] No information found on request to perform content negotiation.
+2023-12-07 13:37:24.094 +07:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-12-07 13:37:24.094 +07:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-12-07 13:37:24.094 +07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-12-07 13:37:24.094 +07:00 [INF] Executing OkObjectResult, writing value of type 'MOC1.Models.APIResponse'.
+2023-12-07 13:37:24.095 +07:00 [INF] Executed action MOC1.Controllers.UsersController.Login (MOC1) in 41.7171ms
+2023-12-07 13:37:24.095 +07:00 [INF] Executed endpoint 'MOC1.Controllers.UsersController.Login (MOC1)'
+2023-12-07 13:37:24.095 +07:00 [DBG] 'ApplicationContext' disposed.
+2023-12-07 13:37:24.095 +07:00 [DBG] Disposing connection to database 'VillaDb' on server '.'.
+2023-12-07 13:37:24.095 +07:00 [DBG] Disposed connection to database '' on server '' (0ms).
+2023-12-07 13:37:24.095 +07:00 [INF] Request finished HTTP/2 POST https://localhost:7189/api/UsersAuth/login application/json-patch+json 54 - 200 362 application/json;+charset=utf-8 52.2966ms
+2023-12-07 13:37:24.824 +07:00 [DBG] Connection id "0HMVMTR7FHCOL" received FIN.
+2023-12-07 13:37:24.824 +07:00 [DBG] Connection id "0HMVMTR7FHCOL" is closed. The last processed stream ID was 1.
+2023-12-07 13:37:24.824 +07:00 [DBG] Connection id "0HMVMTR7FHCOL" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-12-07 13:37:24.825 +07:00 [DBG] The connection queue processing loop for 0HMVMTR7FHCOL completed.
+2023-12-07 13:37:24.825 +07:00 [DBG] Connection id "0HMVMTR7FHCOL" stopped.
+2023-12-07 14:30:56.461 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-12-07 14:30:56.630 +07:00 [DBG] Hosting starting
+2023-12-07 14:30:56.715 +07:00 [INF] User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-07 14:30:56.721 +07:00 [DBG] Reading data from file 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys\key-89ab2015-9967-47e1-965a-65d13ae4bf9f.xml'.
+2023-12-07 14:30:56.763 +07:00 [DBG] Found key {89ab2015-9967-47e1-965a-65d13ae4bf9f}.
+2023-12-07 14:30:56.772 +07:00 [DBG] Considering key {89ab2015-9967-47e1-965a-65d13ae4bf9f} with expiration date 2024-02-25 02:03:06Z as default key.
+2023-12-07 14:30:56.774 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-12-07 14:30:56.775 +07:00 [DBG] Decrypting secret element using Windows DPAPI.
+2023-12-07 14:30:56.777 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-12-07 14:30:56.780 +07:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2023-12-07 14:30:56.781 +07:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2023-12-07 14:30:56.782 +07:00 [DBG] Using key {89ab2015-9967-47e1-965a-65d13ae4bf9f} as the default key.
+2023-12-07 14:30:56.783 +07:00 [DBG] Key ring with default key {89ab2015-9967-47e1-965a-65d13ae4bf9f} was loaded during application startup.
+2023-12-07 14:30:57.210 +07:00 [INF] Now listening on: http://localhost:5225
+2023-12-07 14:30:57.210 +07:00 [DBG] Loaded hosting startup assembly Moc
+2023-12-07 14:30:57.211 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-12-07 14:30:57.211 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-12-07 14:30:57.211 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-07 14:30:57.211 +07:00 [INF] Hosting environment: Development
+2023-12-07 14:30:57.211 +07:00 [INF] Content root path: D:\Moc
+2023-12-07 14:30:57.211 +07:00 [DBG] Hosting started
+2023-12-07 14:30:57.268 +07:00 [DBG] Connection id "0HMVMUPQ10QJ8" accepted.
+2023-12-07 14:30:57.268 +07:00 [DBG] Connection id "0HMVMUPQ10QJ9" accepted.
+2023-12-07 14:30:57.274 +07:00 [DBG] Connection id "0HMVMUPQ10QJ8" started.
+2023-12-07 14:30:57.274 +07:00 [DBG] Connection id "0HMVMUPQ10QJ9" started.
+2023-12-07 14:30:57.284 +07:00 [DBG] Connection id "0HMVMUPQ10QJ8" received FIN.
+2023-12-07 14:30:57.284 +07:00 [DBG] Connection id "0HMVMUPQ10QJ9" received FIN.
+2023-12-07 14:30:57.299 +07:00 [DBG] Connection id "0HMVMUPQ10QJ8" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-12-07 14:30:57.299 +07:00 [DBG] Connection id "0HMVMUPQ10QJ9" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-12-07 14:30:57.302 +07:00 [DBG] Connection id "0HMVMUPQ10QJ9" disconnecting.
+2023-12-07 14:30:57.302 +07:00 [DBG] Connection id "0HMVMUPQ10QJ8" disconnecting.
+2023-12-07 14:30:57.307 +07:00 [DBG] Connection id "0HMVMUPQ10QJ8" stopped.
+2023-12-07 14:30:57.307 +07:00 [DBG] Connection id "0HMVMUPQ10QJ9" stopped.
+2023-12-07 14:30:58.445 +07:00 [DBG] Connection id "0HMVMUPQ10QJA" accepted.
+2023-12-07 14:30:58.467 +07:00 [DBG] Connection id "0HMVMUPQ10QJB" accepted.
+2023-12-07 14:30:58.475 +07:00 [DBG] Connection id "0HMVMUPQ10QJA" started.
+2023-12-07 14:30:58.477 +07:00 [DBG] Connection id "0HMVMUPQ10QJB" started.
+2023-12-07 14:30:58.778 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5225/swagger - -
+2023-12-07 14:30:58.932 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-12-07 14:30:59.014 +07:00 [DBG] No candidates found for the request path '/swagger'
+2023-12-07 14:30:59.015 +07:00 [DBG] Request did not match any endpoints
+2023-12-07 14:30:59.222 +07:00 [DBG] Connection id "0HMVMUPQ10QJA" completed keep alive response.
+2023-12-07 14:30:59.230 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5225/swagger - - - 301 0 - 461.3480ms
+2023-12-07 14:30:59.249 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5225/swagger/index.html - -
+2023-12-07 14:30:59.254 +07:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-12-07 14:30:59.254 +07:00 [DBG] Request did not match any endpoints
+2023-12-07 14:30:59.629 +07:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-12-07 14:31:00.764 +07:00 [DBG] Connection id "0HMVMUPQ10QJB" received FIN.
+2023-12-07 14:31:00.765 +07:00 [DBG] Connection id "0HMVMUPQ10QJB" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-12-07 14:31:00.765 +07:00 [DBG] Connection id "0HMVMUPQ10QJB" disconnecting.
+2023-12-07 14:31:00.767 +07:00 [DBG] Connection id "0HMVMUPQ10QJB" stopped.
+2023-12-07 14:31:00.930 +07:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-12-07 14:31:00.930 +07:00 [DBG] Connection id "0HMVMUPQ10QJA" completed keep alive response.
+2023-12-07 14:31:00.931 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5225/swagger/index.html - - - 200 - text/html;charset=utf-8 1681.8494ms
+2023-12-07 14:31:00.996 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5225/swagger/swagger-ui.css - -
+2023-12-07 14:31:00.996 +07:00 [DBG] No candidates found for the request path '/swagger/swagger-ui.css'
+2023-12-07 14:31:00.996 +07:00 [DBG] Request did not match any endpoints
+2023-12-07 14:31:01.031 +07:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-12-07 14:31:01.032 +07:00 [DBG] Connection id "0HMVMUPQ10QJA" completed keep alive response.
+2023-12-07 14:31:01.032 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5225/swagger/swagger-ui.css - - - 200 144929 text/css 35.8228ms
+2023-12-07 14:31:01.033 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5225/swagger/swagger-ui-bundle.js - -
+2023-12-07 14:31:01.034 +07:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-bundle.js'
+2023-12-07 14:31:01.035 +07:00 [DBG] Request did not match any endpoints
+2023-12-07 14:31:01.037 +07:00 [DBG] Connection id "0HMVMUPQ10QJC" accepted.
+2023-12-07 14:31:01.037 +07:00 [DBG] Connection id "0HMVMUPQ10QJC" started.
+2023-12-07 14:31:01.038 +07:00 [DBG] Connection id "0HMVMUPQ10QJD" accepted.
+2023-12-07 14:31:01.038 +07:00 [DBG] Connection id "0HMVMUPQ10QJD" started.
+2023-12-07 14:31:01.039 +07:00 [DBG] Connection id "0HMVMUPQ10QJE" accepted.
+2023-12-07 14:31:01.039 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5225/_framework/aspnetcore-browser-refresh.js - -
+2023-12-07 14:31:01.039 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5225/swagger/swagger-ui-standalone-preset.js - -
+2023-12-07 14:31:01.039 +07:00 [DBG] Connection id "0HMVMUPQ10QJE" started.
+2023-12-07 14:31:01.039 +07:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js'
+2023-12-07 14:31:01.039 +07:00 [DBG] Request did not match any endpoints
+2023-12-07 14:31:01.039 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5225/_vs/browserLink - -
+2023-12-07 14:31:01.050 +07:00 [DBG] Connection id "0HMVMUPQ10QJD" completed keep alive response.
+2023-12-07 14:31:01.050 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5225/_framework/aspnetcore-browser-refresh.js - - - 200 12338 application/javascript;+charset=utf-8 11.2992ms
+2023-12-07 14:31:01.057 +07:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-12-07 14:31:01.060 +07:00 [DBG] Connection id "0HMVMUPQ10QJC" completed keep alive response.
+2023-12-07 14:31:01.060 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5225/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 20.9817ms
+2023-12-07 14:31:01.092 +07:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-12-07 14:31:01.092 +07:00 [DBG] Connection id "0HMVMUPQ10QJA" completed keep alive response.
+2023-12-07 14:31:01.092 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5225/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 58.7489ms
+2023-12-07 14:31:01.344 +07:00 [DBG] Connection id "0HMVMUPQ10QJE" completed keep alive response.
+2023-12-07 14:31:01.345 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5225/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 305.6076ms
+2023-12-07 14:31:02.549 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5225/swagger/v1/swagger.json - -
+2023-12-07 14:31:02.550 +07:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-12-07 14:31:02.550 +07:00 [DBG] Request did not match any endpoints
+2023-12-07 14:31:03.672 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5225/swagger/favicon-32x32.png - -
+2023-12-07 14:31:03.672 +07:00 [DBG] No candidates found for the request path '/swagger/favicon-32x32.png'
+2023-12-07 14:31:03.673 +07:00 [DBG] Request did not match any endpoints
+2023-12-07 14:31:03.674 +07:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-12-07 14:31:03.674 +07:00 [DBG] Connection id "0HMVMUPQ10QJA" completed keep alive response.
+2023-12-07 14:31:03.674 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5225/swagger/favicon-32x32.png - - - 200 628 image/png 2.2765ms
+2023-12-07 14:31:03.888 +07:00 [DBG] Connection id "0HMVMUPQ10QJE" completed keep alive response.
+2023-12-07 14:31:03.889 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5225/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 1339.2874ms
+2023-12-07 14:31:10.756 +07:00 [DBG] Connection id "0HMVMUPQ10QJC" received FIN.
+2023-12-07 14:31:10.756 +07:00 [DBG] Connection id "0HMVMUPQ10QJE" received FIN.
+2023-12-07 14:31:10.756 +07:00 [DBG] Connection id "0HMVMUPQ10QJA" received FIN.
+2023-12-07 14:31:10.756 +07:00 [DBG] Connection id "0HMVMUPQ10QJD" received FIN.
+2023-12-07 14:31:10.757 +07:00 [DBG] Connection id "0HMVMUPQ10QJC" disconnecting.
+2023-12-07 14:31:10.757 +07:00 [DBG] Connection id "0HMVMUPQ10QJC" stopped.
+2023-12-07 14:31:10.757 +07:00 [DBG] Connection id "0HMVMUPQ10QJD" disconnecting.
+2023-12-07 14:31:10.757 +07:00 [DBG] Connection id "0HMVMUPQ10QJA" disconnecting.
+2023-12-07 14:31:10.757 +07:00 [DBG] Connection id "0HMVMUPQ10QJD" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-12-07 14:31:10.757 +07:00 [DBG] Connection id "0HMVMUPQ10QJA" stopped.
+2023-12-07 14:31:10.757 +07:00 [DBG] Connection id "0HMVMUPQ10QJC" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-12-07 14:31:10.758 +07:00 [DBG] Connection id "0HMVMUPQ10QJA" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-12-07 14:31:10.758 +07:00 [DBG] Connection id "0HMVMUPQ10QJE" disconnecting.
+2023-12-07 14:31:10.758 +07:00 [DBG] Connection id "0HMVMUPQ10QJE" stopped.
+2023-12-07 14:31:10.758 +07:00 [DBG] Connection id "0HMVMUPQ10QJE" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-12-07 14:31:10.758 +07:00 [DBG] Connection id "0HMVMUPQ10QJD" stopped.
+2023-12-07 16:12:14.415 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-12-07 16:12:14.540 +07:00 [DBG] Hosting starting
+2023-12-07 16:12:14.563 +07:00 [INF] User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-07 16:12:14.567 +07:00 [DBG] Reading data from file 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys\key-89ab2015-9967-47e1-965a-65d13ae4bf9f.xml'.
+2023-12-07 16:12:14.582 +07:00 [DBG] Found key {89ab2015-9967-47e1-965a-65d13ae4bf9f}.
+2023-12-07 16:12:14.591 +07:00 [DBG] Considering key {89ab2015-9967-47e1-965a-65d13ae4bf9f} with expiration date 2024-02-25 02:03:06Z as default key.
+2023-12-07 16:12:14.594 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-12-07 16:12:14.595 +07:00 [DBG] Decrypting secret element using Windows DPAPI.
+2023-12-07 16:12:14.596 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-12-07 16:12:14.598 +07:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2023-12-07 16:12:14.599 +07:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2023-12-07 16:12:14.600 +07:00 [DBG] Using key {89ab2015-9967-47e1-965a-65d13ae4bf9f} as the default key.
+2023-12-07 16:12:14.601 +07:00 [DBG] Key ring with default key {89ab2015-9967-47e1-965a-65d13ae4bf9f} was loaded during application startup.
+2023-12-07 16:12:14.792 +07:00 [INF] Now listening on: http://localhost:5225
+2023-12-07 16:12:14.792 +07:00 [DBG] Loaded hosting startup assembly Moc
+2023-12-07 16:12:14.792 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-12-07 16:12:14.792 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-12-07 16:12:14.792 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-07 16:12:14.792 +07:00 [INF] Hosting environment: Development
+2023-12-07 16:12:14.792 +07:00 [INF] Content root path: D:\Moc
+2023-12-07 16:12:14.792 +07:00 [DBG] Hosting started
+2023-12-07 16:12:15.097 +07:00 [DBG] Connection id "0HMVN0IDBN1FU" accepted.
+2023-12-07 16:12:15.097 +07:00 [DBG] Connection id "0HMVN0IDBN1FV" accepted.
+2023-12-07 16:12:15.098 +07:00 [DBG] Connection id "0HMVN0IDBN1FU" started.
+2023-12-07 16:12:15.098 +07:00 [DBG] Connection id "0HMVN0IDBN1FV" started.
+2023-12-07 16:12:15.114 +07:00 [DBG] Connection id "0HMVN0IDBN1FV" received FIN.
+2023-12-07 16:12:15.114 +07:00 [DBG] Connection id "0HMVN0IDBN1FU" received FIN.
+2023-12-07 16:12:15.115 +07:00 [DBG] Connection id "0HMVN0IDBN1FU" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-12-07 16:12:15.115 +07:00 [DBG] Connection id "0HMVN0IDBN1FV" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-12-07 16:12:15.123 +07:00 [DBG] Connection id "0HMVN0IDBN1FU" disconnecting.
+2023-12-07 16:12:15.123 +07:00 [DBG] Connection id "0HMVN0IDBN1FV" disconnecting.
+2023-12-07 16:12:15.124 +07:00 [DBG] Connection id "0HMVN0IDBN1FV" stopped.
+2023-12-07 16:12:15.124 +07:00 [DBG] Connection id "0HMVN0IDBN1FU" stopped.
+2023-12-07 16:12:15.908 +07:00 [DBG] Connection id "0HMVN0IDBN1G0" accepted.
+2023-12-07 16:12:15.914 +07:00 [DBG] Connection id "0HMVN0IDBN1G0" started.
+2023-12-07 16:12:15.914 +07:00 [DBG] Connection id "0HMVN0IDBN1G1" accepted.
+2023-12-07 16:12:15.915 +07:00 [DBG] Connection id "0HMVN0IDBN1G1" started.
+2023-12-07 16:12:16.419 +07:00 [DBG] Connection id "0HMVN0IDBN1G0" received FIN.
+2023-12-07 16:12:16.421 +07:00 [DBG] Connection id "0HMVN0IDBN1G0" disconnecting.
+2023-12-07 16:12:16.422 +07:00 [DBG] Connection id "0HMVN0IDBN1G0" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-12-07 16:12:16.441 +07:00 [DBG] Connection id "0HMVN0IDBN1G0" stopped.
+2023-12-07 16:12:16.456 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5225/swagger - -
+2023-12-07 16:12:16.523 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-12-07 16:12:16.567 +07:00 [DBG] No candidates found for the request path '/swagger'
+2023-12-07 16:12:16.568 +07:00 [DBG] Request did not match any endpoints
+2023-12-07 16:12:16.642 +07:00 [DBG] Connection id "0HMVN0IDBN1G1" completed keep alive response.
+2023-12-07 16:12:16.650 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5225/swagger - - - 301 0 - 202.3543ms
+2023-12-07 16:12:16.656 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5225/swagger/index.html - -
+2023-12-07 16:12:16.658 +07:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-12-07 16:12:16.658 +07:00 [DBG] Request did not match any endpoints
+2023-12-07 16:12:16.834 +07:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-12-07 16:12:17.041 +07:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-12-07 16:12:17.042 +07:00 [DBG] Connection id "0HMVN0IDBN1G1" completed keep alive response.
+2023-12-07 16:12:17.044 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5225/swagger/index.html - - - 200 - text/html;charset=utf-8 387.1381ms
+2023-12-07 16:12:17.103 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5225/swagger/swagger-ui.css - -
+2023-12-07 16:12:17.103 +07:00 [DBG] No candidates found for the request path '/swagger/swagger-ui.css'
+2023-12-07 16:12:17.103 +07:00 [DBG] Request did not match any endpoints
+2023-12-07 16:12:17.136 +07:00 [DBG] Connection id "0HMVN0IDBN1G2" accepted.
+2023-12-07 16:12:17.138 +07:00 [DBG] Connection id "0HMVN0IDBN1G3" accepted.
+2023-12-07 16:12:17.139 +07:00 [DBG] Connection id "0HMVN0IDBN1G4" accepted.
+2023-12-07 16:12:17.140 +07:00 [DBG] Connection id "0HMVN0IDBN1G5" accepted.
+2023-12-07 16:12:17.140 +07:00 [DBG] Connection id "0HMVN0IDBN1G2" started.
+2023-12-07 16:12:17.141 +07:00 [DBG] Connection id "0HMVN0IDBN1G3" started.
+2023-12-07 16:12:17.141 +07:00 [DBG] Connection id "0HMVN0IDBN1G4" started.
+2023-12-07 16:12:17.141 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5225/swagger/swagger-ui-bundle.js - -
+2023-12-07 16:12:17.141 +07:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-bundle.js'
+2023-12-07 16:12:17.141 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5225/_vs/browserLink - -
+2023-12-07 16:12:17.141 +07:00 [DBG] Request did not match any endpoints
+2023-12-07 16:12:17.141 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5225/_framework/aspnetcore-browser-refresh.js - -
+2023-12-07 16:12:17.142 +07:00 [DBG] Connection id "0HMVN0IDBN1G5" started.
+2023-12-07 16:12:17.157 +07:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2023-12-07 16:12:17.158 +07:00 [DBG] Connection id "0HMVN0IDBN1G3" completed keep alive response.
+2023-12-07 16:12:17.158 +07:00 [DBG] Connection id "0HMVN0IDBN1G1" completed keep alive response.
+2023-12-07 16:12:17.158 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5225/_framework/aspnetcore-browser-refresh.js - - - 200 12338 application/javascript;+charset=utf-8 16.7348ms
+2023-12-07 16:12:17.158 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5225/swagger/swagger-ui.css - - - 200 144929 text/css 55.6944ms
+2023-12-07 16:12:17.166 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5225/swagger/swagger-ui-standalone-preset.js - -
+2023-12-07 16:12:17.166 +07:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js'
+2023-12-07 16:12:17.166 +07:00 [DBG] Request did not match any endpoints
+2023-12-07 16:12:17.196 +07:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-12-07 16:12:17.197 +07:00 [DBG] Connection id "0HMVN0IDBN1G1" completed keep alive response.
+2023-12-07 16:12:17.197 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5225/swagger/swagger-ui-standalone-preset.js - - - 200 312163 text/javascript 30.7634ms
+2023-12-07 16:12:17.219 +07:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-12-07 16:12:17.219 +07:00 [DBG] Connection id "0HMVN0IDBN1G2" completed keep alive response.
+2023-12-07 16:12:17.220 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5225/swagger/swagger-ui-bundle.js - - - 200 1061536 text/javascript 78.5378ms
+2023-12-07 16:12:17.224 +07:00 [DBG] Connection id "0HMVN0IDBN1G4" completed keep alive response.
+2023-12-07 16:12:17.224 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5225/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 83.0642ms
+2023-12-07 16:12:18.532 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5225/swagger/v1/swagger.json - -
+2023-12-07 16:12:18.533 +07:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-12-07 16:12:18.533 +07:00 [DBG] Request did not match any endpoints
+2023-12-07 16:12:19.595 +07:00 [DBG] Connection id "0HMVN0IDBN1G4" completed keep alive response.
+2023-12-07 16:12:19.595 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5225/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 1063.2619ms
+2023-12-07 16:12:21.120 +07:00 [DBG] Connection id "0HMVN0IDBN1G3" received FIN.
+2023-12-07 16:12:21.120 +07:00 [DBG] Connection id "0HMVN0IDBN1G1" received FIN.
+2023-12-07 16:12:21.120 +07:00 [DBG] Connection id "0HMVN0IDBN1G2" received FIN.
+2023-12-07 16:12:21.120 +07:00 [DBG] Connection id "0HMVN0IDBN1G5" received FIN.
+2023-12-07 16:12:21.120 +07:00 [DBG] Connection id "0HMVN0IDBN1G4" received FIN.
+2023-12-07 16:12:21.121 +07:00 [DBG] Connection id "0HMVN0IDBN1G5" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-12-07 16:12:21.121 +07:00 [DBG] Connection id "0HMVN0IDBN1G2" disconnecting.
+2023-12-07 16:12:21.121 +07:00 [DBG] Connection id "0HMVN0IDBN1G1" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-12-07 16:12:21.121 +07:00 [DBG] Connection id "0HMVN0IDBN1G2" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-12-07 16:12:21.121 +07:00 [DBG] Connection id "0HMVN0IDBN1G1" disconnecting.
+2023-12-07 16:12:21.121 +07:00 [DBG] Connection id "0HMVN0IDBN1G5" disconnecting.
+2023-12-07 16:12:21.121 +07:00 [DBG] Connection id "0HMVN0IDBN1G5" stopped.
+2023-12-07 16:12:21.121 +07:00 [DBG] Connection id "0HMVN0IDBN1G3" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-12-07 16:12:21.121 +07:00 [DBG] Connection id "0HMVN0IDBN1G3" disconnecting.
+2023-12-07 16:12:21.121 +07:00 [DBG] Connection id "0HMVN0IDBN1G4" disconnecting.
+2023-12-07 16:12:21.121 +07:00 [DBG] Connection id "0HMVN0IDBN1G4" stopped.
+2023-12-07 16:12:21.122 +07:00 [DBG] Connection id "0HMVN0IDBN1G4" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-12-07 16:12:21.122 +07:00 [DBG] Connection id "0HMVN0IDBN1G3" stopped.
+2023-12-07 16:12:21.126 +07:00 [DBG] Connection id "0HMVN0IDBN1G2" stopped.
+2023-12-07 16:12:21.126 +07:00 [DBG] Connection id "0HMVN0IDBN1G1" stopped.
+2023-12-07 16:12:45.800 +07:00 [DBG] Connection id "0HMVN0IDBN1G6" accepted.
+2023-12-07 16:12:45.801 +07:00 [DBG] Connection id "0HMVN0IDBN1G6" started.
+2023-12-07 16:12:45.808 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5225/api/UsersAuth/login application/json-patch+json 53
+2023-12-07 16:12:45.816 +07:00 [DBG] 1 candidate(s) found for the request path '/api/UsersAuth/login'
+2023-12-07 16:12:45.819 +07:00 [DBG] Endpoint 'Moc.Controllers.UsersController.Login (Moc)' with route pattern 'api/UsersAuth/login' is valid for the request path '/api/UsersAuth/login'
+2023-12-07 16:12:45.819 +07:00 [DBG] Request matched endpoint 'Moc.Controllers.UsersController.Login (Moc)'
+2023-12-07 16:12:45.820 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-12-07 16:12:45.823 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-07 16:12:46.643 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2023-12-07 16:12:46.647 +07:00 [INF] Executing endpoint 'Moc.Controllers.UsersController.Login (Moc)'
+2023-12-07 16:12:46.688 +07:00 [INF] Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(Moc.DTO.LoginRequestDTO) on controller Moc.Controllers.UsersController (Moc).
+2023-12-07 16:12:46.689 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-12-07 16:12:46.690 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-12-07 16:12:46.690 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.Filters.ResponseCacheFilter"]
+2023-12-07 16:12:46.690 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-12-07 16:12:46.690 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-12-07 16:12:46.692 +07:00 [DBG] Executing controller factory for controller Moc.Controllers.UsersController (Moc)
+2023-12-07 16:12:47.241 +07:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-12-07 16:12:47.268 +07:00 [DBG] Executed controller factory for controller Moc.Controllers.UsersController (Moc)
+2023-12-07 16:12:47.273 +07:00 [DBG] Attempting to bind parameter 'model' of type 'Moc.DTO.LoginRequestDTO' ...
+2023-12-07 16:12:47.275 +07:00 [DBG] Attempting to bind parameter 'model' of type 'Moc.DTO.LoginRequestDTO' using the name '' in request data ...
+2023-12-07 16:12:47.275 +07:00 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json-patch+json'.
+2023-12-07 16:12:47.276 +07:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json-patch+json'.
+2023-12-07 16:12:47.322 +07:00 [DBG] Connection id "0HMVN0IDBN1G6", Request id "0HMVN0IDBN1G6:00000001": started reading request body.
+2023-12-07 16:12:47.322 +07:00 [DBG] Connection id "0HMVN0IDBN1G6", Request id "0HMVN0IDBN1G6:00000001": done reading request body.
+2023-12-07 16:12:47.411 +07:00 [DBG] Done attempting to bind parameter 'model' of type 'Moc.DTO.LoginRequestDTO'.
+2023-12-07 16:12:47.411 +07:00 [DBG] Done attempting to bind parameter 'model' of type 'Moc.DTO.LoginRequestDTO'.
+2023-12-07 16:12:47.411 +07:00 [DBG] Attempting to validate the bound parameter 'model' of type 'Moc.DTO.LoginRequestDTO' ...
+2023-12-07 16:12:47.419 +07:00 [DBG] Done attempting to validate the bound parameter 'model' of type 'Moc.DTO.LoginRequestDTO'.
+2023-12-07 16:12:48.016 +07:00 [DBG] Entity Framework Core 7.0.14 initialized 'ApplicationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.14' with options: None
+2023-12-07 16:12:48.267 +07:00 [DBG] Compiling query expression: 
+'DbSet<LocalUser>()
+    .FirstOrDefault(s => s.UserName.ToLower() == __ToLower_0)'
+2023-12-07 16:12:48.517 +07:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<LocalUser>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: LocalUser.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: LocalUser.Name (string) Required, 1], [Property: LocalUser.Password (string) Required, 2], [Property: LocalUser.Role (string) Required, 3], [Property: LocalUser.UserName (string) Required, 4] }
+        SELECT TOP(1) l.Id, l.Name, l.Password, l.Role, l.UserName
+        FROM LocalUsers AS l
+        WHERE LOWER(l.UserName) == @__ToLower_0), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, LocalUser>, 
+    Moc.Data.ApplicationContext, 
+    False, 
+    False, 
+    True
+)
+    .SingleOrDefault()'
+2023-12-07 16:12:48.550 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-12-07 16:12:48.551 +07:00 [DBG] Creating DbConnection.
+2023-12-07 16:12:48.570 +07:00 [DBG] Created DbConnection. (16ms).
+2023-12-07 16:12:48.577 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (25ms).
+2023-12-07 16:12:48.584 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (35ms).
+2023-12-07 16:12:48.587 +07:00 [DBG] Opening connection to database 'VillaDb' on server '.'.
+2023-12-07 16:12:49.431 +07:00 [DBG] Opened connection to database 'VillaDb' on server '.'.
+2023-12-07 16:12:49.439 +07:00 [DBG] Executing DbCommand [Parameters=[@__ToLower_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [l].[Id], [l].[Name], [l].[Password], [l].[Role], [l].[UserName]
+FROM [LocalUsers] AS [l]
+WHERE LOWER([l].[UserName]) = @__ToLower_0
+2023-12-07 16:12:49.967 +07:00 [INF] Executed DbCommand (529ms) [Parameters=[@__ToLower_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [l].[Id], [l].[Name], [l].[Password], [l].[Role], [l].[UserName]
+FROM [LocalUsers] AS [l]
+WHERE LOWER([l].[UserName]) = @__ToLower_0
+2023-12-07 16:12:49.995 +07:00 [DBG] Context 'ApplicationContext' started tracking 'LocalUser' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-12-07 16:12:50.022 +07:00 [DBG] Closing data reader to 'VillaDb' on server '.'.
+2023-12-07 16:12:50.031 +07:00 [DBG] A data reader for 'VillaDb' on server '.' is being disposed after spending 58ms reading results.
+2023-12-07 16:12:50.034 +07:00 [DBG] Closing connection to database 'VillaDb' on server '.'.
+2023-12-07 16:12:50.042 +07:00 [DBG] Closed connection to database 'VillaDb' on server '.' (8ms).
+2023-12-07 16:12:50.432 +07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2023-12-07 16:12:50.433 +07:00 [DBG] No information found on request to perform content negotiation.
+2023-12-07 16:12:50.433 +07:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-12-07 16:12:50.433 +07:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-12-07 16:12:50.434 +07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-12-07 16:12:50.434 +07:00 [INF] Executing OkObjectResult, writing value of type 'Moc.Models.APIResponse'.
+2023-12-07 16:12:50.471 +07:00 [INF] Executed action Moc.Controllers.UsersController.Login (Moc) in 3777.1114ms
+2023-12-07 16:12:50.471 +07:00 [INF] Executed endpoint 'Moc.Controllers.UsersController.Login (Moc)'
+2023-12-07 16:12:50.471 +07:00 [DBG] Connection id "0HMVN0IDBN1G6" completed keep alive response.
+2023-12-07 16:12:50.473 +07:00 [DBG] 'ApplicationContext' disposed.
+2023-12-07 16:12:50.476 +07:00 [DBG] Disposing connection to database 'VillaDb' on server '.'.
+2023-12-07 16:12:50.478 +07:00 [DBG] Disposed connection to database '' on server '' (1ms).
+2023-12-07 16:12:50.479 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5225/api/UsersAuth/login application/json-patch+json 53 - 200 359 application/json;+charset=utf-8 4670.4664ms
+2023-12-07 16:12:51.168 +07:00 [DBG] Connection id "0HMVN0IDBN1G6" received FIN.
+2023-12-07 16:12:51.168 +07:00 [DBG] Connection id "0HMVN0IDBN1G6" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-12-07 16:12:51.169 +07:00 [DBG] Connection id "0HMVN0IDBN1G6" disconnecting.
+2023-12-07 16:12:51.169 +07:00 [DBG] Connection id "0HMVN0IDBN1G6" stopped.
+2023-12-07 16:13:51.948 +07:00 [DBG] Connection id "0HMVN0IDBN1G7" accepted.
+2023-12-07 16:13:51.949 +07:00 [DBG] Connection id "0HMVN0IDBN1G7" started.
+2023-12-07 16:13:51.949 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5225/api/Villa - -
+2023-12-07 16:13:51.957 +07:00 [DBG] 1 candidate(s) found for the request path '/api/Villa'
+2023-12-07 16:13:51.957 +07:00 [DBG] Endpoint 'Moc.Controllers.VillaController.GetVillas (Moc)' with route pattern 'api/Villa' is valid for the request path '/api/Villa'
+2023-12-07 16:13:51.957 +07:00 [DBG] Request matched endpoint 'Moc.Controllers.VillaController.GetVillas (Moc)'
+2023-12-07 16:13:51.958 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-12-07 16:13:52.036 +07:00 [DBG] Successfully validated the token.
+2023-12-07 16:13:52.041 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2023-12-07 16:13:52.050 +07:00 [DBG] Authorization was successful.
+2023-12-07 16:13:52.050 +07:00 [INF] Executing endpoint 'Moc.Controllers.VillaController.GetVillas (Moc)'
+2023-12-07 16:13:52.057 +07:00 [INF] Route matched with {action = "GetVillas", controller = "Villa"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Moc.Models.APIResponse]] GetVillas(System.String) on controller Moc.Controllers.VillaController (Moc).
+2023-12-07 16:13:52.057 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-12-07 16:13:52.058 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-12-07 16:13:52.058 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-12-07 16:13:52.058 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-12-07 16:13:52.058 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-12-07 16:13:52.058 +07:00 [DBG] Executing controller factory for controller Moc.Controllers.VillaController (Moc)
+2023-12-07 16:13:52.149 +07:00 [DBG] Executed controller factory for controller Moc.Controllers.VillaController (Moc)
+2023-12-07 16:13:52.149 +07:00 [DBG] Attempting to bind parameter 'query' of type 'System.String' ...
+2023-12-07 16:13:52.150 +07:00 [DBG] Attempting to bind parameter 'query' of type 'System.String' using the name '' in request data ...
+2023-12-07 16:13:52.150 +07:00 [DBG] Could not find a value in the request with name '' for binding parameter 'query' of type 'System.String'.
+2023-12-07 16:13:52.150 +07:00 [DBG] Done attempting to bind parameter 'query' of type 'System.String'.
+2023-12-07 16:13:52.150 +07:00 [DBG] Done attempting to bind parameter 'query' of type 'System.String'.
+2023-12-07 16:13:52.150 +07:00 [DBG] Attempting to validate the bound parameter 'query' of type 'System.String' ...
+2023-12-07 16:13:52.150 +07:00 [DBG] Done attempting to validate the bound parameter 'query' of type 'System.String'.
+2023-12-07 16:13:52.445 +07:00 [DBG] Entity Framework Core 7.0.14 initialized 'ApplicationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.14' with options: None
+2023-12-07 16:13:56.029 +07:00 [DBG] Compiling query expression: 
+'DbSet<Villa>()
+    .OrderBy( => .Name)'
+2023-12-07 16:13:56.039 +07:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Villa>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Villa.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Villa.Amenity (string) Required, 1], [Property: Villa.CreatedDate (DateTime) Required, 2], [Property: Villa.Details (string) Required, 3], [Property: Villa.ImageUrl (string) Required, 4], [Property: Villa.Name (string) Required, 5], [Property: Villa.Occupancy (int) Required, 6], [Property: Villa.Rate (double) Required, 7], [Property: Villa.Sqft (int) Required, 8], [Property: Villa.UpdatedDate (DateTime) Required, 9] }
+        SELECT v.Id, v.Amenity, v.CreatedDate, v.Details, v.ImageUrl, v.Name, v.Occupancy, v.Rate, v.Sqft, v.UpdatedDate
+        FROM Villas AS v
+        ORDER BY v.Name ASC), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Villa>, 
+    Moc.Data.ApplicationContext, 
+    False, 
+    False, 
+    True
+)'
+2023-12-07 16:13:56.051 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-12-07 16:13:56.051 +07:00 [DBG] Creating DbConnection.
+2023-12-07 16:13:56.052 +07:00 [DBG] Created DbConnection. (0ms).
+2023-12-07 16:13:56.052 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-12-07 16:13:56.052 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2023-12-07 16:13:56.056 +07:00 [DBG] Opening connection to database 'VillaDb' on server '.'.
+2023-12-07 16:13:56.059 +07:00 [DBG] Opened connection to database 'VillaDb' on server '.'.
+2023-12-07 16:13:56.060 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[Amenity], [v].[CreatedDate], [v].[Details], [v].[ImageUrl], [v].[Name], [v].[Occupancy], [v].[Rate], [v].[Sqft], [v].[UpdatedDate]
+FROM [Villas] AS [v]
+ORDER BY [v].[Name]
+2023-12-07 16:13:56.147 +07:00 [INF] Executed DbCommand (87ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[Amenity], [v].[CreatedDate], [v].[Details], [v].[ImageUrl], [v].[Name], [v].[Occupancy], [v].[Rate], [v].[Sqft], [v].[UpdatedDate]
+FROM [Villas] AS [v]
+ORDER BY [v].[Name]
+2023-12-07 16:13:56.158 +07:00 [DBG] Context 'ApplicationContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-12-07 16:13:56.175 +07:00 [DBG] Context 'ApplicationContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-12-07 16:13:56.175 +07:00 [DBG] Context 'ApplicationContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-12-07 16:13:56.178 +07:00 [DBG] Closing data reader to 'VillaDb' on server '.'.
+2023-12-07 16:13:56.178 +07:00 [DBG] A data reader for 'VillaDb' on server '.' is being disposed after spending 30ms reading results.
+2023-12-07 16:13:56.179 +07:00 [DBG] Closing connection to database 'VillaDb' on server '.'.
+2023-12-07 16:13:56.180 +07:00 [DBG] Closed connection to database 'VillaDb' on server '.' (0ms).
+2023-12-07 16:13:56.195 +07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2023-12-07 16:13:56.196 +07:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2023-12-07 16:13:56.198 +07:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2023-12-07 16:13:56.199 +07:00 [WRN] No output formatter was found for content types '["text/plain"]' to write the response.
+2023-12-07 16:13:56.199 +07:00 [INF] Executed action Moc.Controllers.VillaController.GetVillas (Moc) in 4141.4292ms
+2023-12-07 16:13:56.199 +07:00 [INF] Executed endpoint 'Moc.Controllers.VillaController.GetVillas (Moc)'
+2023-12-07 16:13:56.200 +07:00 [DBG] Connection id "0HMVN0IDBN1G7" completed keep alive response.
+2023-12-07 16:13:56.200 +07:00 [DBG] 'ApplicationContext' disposed.
+2023-12-07 16:13:56.200 +07:00 [DBG] Disposing connection to database 'VillaDb' on server '.'.
+2023-12-07 16:13:56.200 +07:00 [DBG] Disposed connection to database '' on server '' (0ms).
+2023-12-07 16:13:56.200 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5225/api/Villa - - - 406 0 - 4251.0975ms
+2023-12-07 16:13:56.291 +07:00 [DBG] Connection id "0HMVN0IDBN1G7" received FIN.
+2023-12-07 16:13:56.291 +07:00 [DBG] Connection id "0HMVN0IDBN1G7" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-12-07 16:13:56.291 +07:00 [DBG] Connection id "0HMVN0IDBN1G7" disconnecting.
+2023-12-07 16:13:56.291 +07:00 [DBG] Connection id "0HMVN0IDBN1G7" stopped.
+2023-12-07 16:14:01.124 +07:00 [DBG] Connection id "0HMVN0IDBN1G8" accepted.
+2023-12-07 16:14:01.124 +07:00 [DBG] Connection id "0HMVN0IDBN1G8" started.
+2023-12-07 16:14:01.125 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5225/api/Villa - -
+2023-12-07 16:14:01.125 +07:00 [DBG] 1 candidate(s) found for the request path '/api/Villa'
+2023-12-07 16:14:01.125 +07:00 [DBG] Endpoint 'Moc.Controllers.VillaController.GetVillas (Moc)' with route pattern 'api/Villa' is valid for the request path '/api/Villa'
+2023-12-07 16:14:01.125 +07:00 [DBG] Request matched endpoint 'Moc.Controllers.VillaController.GetVillas (Moc)'
+2023-12-07 16:14:01.125 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-12-07 16:14:01.128 +07:00 [DBG] Successfully validated the token.
+2023-12-07 16:14:01.128 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2023-12-07 16:14:01.131 +07:00 [DBG] Authorization was successful.
+2023-12-07 16:14:01.131 +07:00 [INF] Executing endpoint 'Moc.Controllers.VillaController.GetVillas (Moc)'
+2023-12-07 16:14:01.132 +07:00 [INF] Route matched with {action = "GetVillas", controller = "Villa"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Moc.Models.APIResponse]] GetVillas(System.String) on controller Moc.Controllers.VillaController (Moc).
+2023-12-07 16:14:01.132 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-12-07 16:14:01.132 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-12-07 16:14:01.132 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-12-07 16:14:01.132 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-12-07 16:14:01.132 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-12-07 16:14:01.132 +07:00 [DBG] Executing controller factory for controller Moc.Controllers.VillaController (Moc)
+2023-12-07 16:14:01.132 +07:00 [DBG] Executed controller factory for controller Moc.Controllers.VillaController (Moc)
+2023-12-07 16:14:01.132 +07:00 [DBG] Attempting to bind parameter 'query' of type 'System.String' ...
+2023-12-07 16:14:01.132 +07:00 [DBG] Attempting to bind parameter 'query' of type 'System.String' using the name '' in request data ...
+2023-12-07 16:14:01.132 +07:00 [DBG] Could not find a value in the request with name '' for binding parameter 'query' of type 'System.String'.
+2023-12-07 16:14:01.132 +07:00 [DBG] Done attempting to bind parameter 'query' of type 'System.String'.
+2023-12-07 16:14:01.132 +07:00 [DBG] Done attempting to bind parameter 'query' of type 'System.String'.
+2023-12-07 16:14:01.132 +07:00 [DBG] Attempting to validate the bound parameter 'query' of type 'System.String' ...
+2023-12-07 16:14:01.132 +07:00 [DBG] Done attempting to validate the bound parameter 'query' of type 'System.String'.
+2023-12-07 16:14:01.189 +07:00 [DBG] Entity Framework Core 7.0.14 initialized 'ApplicationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.14' with options: None
+2023-12-07 16:14:01.192 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-12-07 16:14:01.192 +07:00 [DBG] Creating DbConnection.
+2023-12-07 16:14:01.192 +07:00 [DBG] Created DbConnection. (0ms).
+2023-12-07 16:14:01.193 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-12-07 16:14:01.193 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2023-12-07 16:14:01.193 +07:00 [DBG] Opening connection to database 'VillaDb' on server '.'.
+2023-12-07 16:14:01.193 +07:00 [DBG] Opened connection to database 'VillaDb' on server '.'.
+2023-12-07 16:14:01.193 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[Amenity], [v].[CreatedDate], [v].[Details], [v].[ImageUrl], [v].[Name], [v].[Occupancy], [v].[Rate], [v].[Sqft], [v].[UpdatedDate]
+FROM [Villas] AS [v]
+ORDER BY [v].[Name]
+2023-12-07 16:14:01.198 +07:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[Amenity], [v].[CreatedDate], [v].[Details], [v].[ImageUrl], [v].[Name], [v].[Occupancy], [v].[Rate], [v].[Sqft], [v].[UpdatedDate]
+FROM [Villas] AS [v]
+ORDER BY [v].[Name]
+2023-12-07 16:14:01.198 +07:00 [DBG] Context 'ApplicationContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-12-07 16:14:01.199 +07:00 [DBG] Context 'ApplicationContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-12-07 16:14:01.199 +07:00 [DBG] Context 'ApplicationContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-12-07 16:14:01.199 +07:00 [DBG] Closing data reader to 'VillaDb' on server '.'.
+2023-12-07 16:14:01.199 +07:00 [DBG] A data reader for 'VillaDb' on server '.' is being disposed after spending 0ms reading results.
+2023-12-07 16:14:01.199 +07:00 [DBG] Closing connection to database 'VillaDb' on server '.'.
+2023-12-07 16:14:01.199 +07:00 [DBG] Closed connection to database 'VillaDb' on server '.' (0ms).
+2023-12-07 16:14:01.199 +07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2023-12-07 16:14:01.199 +07:00 [DBG] Attempting to select an output formatter based on Accept header '["application/json"]'.
+2023-12-07 16:14:01.199 +07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-12-07 16:14:01.200 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Moc.DTO.VillaDTO, Moc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-12-07 16:14:01.210 +07:00 [INF] Executed action Moc.Controllers.VillaController.GetVillas (Moc) in 78.7731ms
+2023-12-07 16:14:01.211 +07:00 [INF] Executed endpoint 'Moc.Controllers.VillaController.GetVillas (Moc)'
+2023-12-07 16:14:01.211 +07:00 [DBG] Connection id "0HMVN0IDBN1G8" completed keep alive response.
+2023-12-07 16:14:01.211 +07:00 [DBG] 'ApplicationContext' disposed.
+2023-12-07 16:14:01.211 +07:00 [DBG] Disposing connection to database 'VillaDb' on server '.'.
+2023-12-07 16:14:01.211 +07:00 [DBG] Disposed connection to database '' on server '' (0ms).
+2023-12-07 16:14:01.211 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5225/api/Villa - - - 200 379 application/json;+charset=utf-8 86.3581ms
+2023-12-07 16:14:01.291 +07:00 [DBG] Connection id "0HMVN0IDBN1G8" received FIN.
+2023-12-07 16:14:01.292 +07:00 [DBG] Connection id "0HMVN0IDBN1G8" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-12-07 16:14:01.292 +07:00 [DBG] Connection id "0HMVN0IDBN1G8" disconnecting.
+2023-12-07 16:14:01.292 +07:00 [DBG] Connection id "0HMVN0IDBN1G8" stopped.
+2023-12-07 16:14:09.390 +07:00 [DBG] Connection id "0HMVN0IDBN1G9" accepted.
+2023-12-07 16:14:09.390 +07:00 [DBG] Connection id "0HMVN0IDBN1G9" started.
+2023-12-07 16:14:09.391 +07:00 [INF] Request starting HTTP/1.1 DELETE http://localhost:5225/api/Villa/6 - -
+2023-12-07 16:14:09.391 +07:00 [DBG] 1 candidate(s) found for the request path '/api/Villa/6'
+2023-12-07 16:14:09.392 +07:00 [DBG] Endpoint 'Moc.Controllers.VillaController.DeleteVilla (Moc)' with route pattern 'api/Villa/{id:int}' is valid for the request path '/api/Villa/6'
+2023-12-07 16:14:09.392 +07:00 [DBG] Request matched endpoint 'Moc.Controllers.VillaController.DeleteVilla (Moc)'
+2023-12-07 16:14:09.392 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-12-07 16:14:09.392 +07:00 [DBG] Successfully validated the token.
+2023-12-07 16:14:09.392 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2023-12-07 16:14:09.396 +07:00 [DBG] Authorization was successful.
+2023-12-07 16:14:09.397 +07:00 [INF] Executing endpoint 'Moc.Controllers.VillaController.DeleteVilla (Moc)'
+2023-12-07 16:14:09.408 +07:00 [INF] Route matched with {action = "DeleteVilla", controller = "Villa"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] DeleteVilla(Int32) on controller Moc.Controllers.VillaController (Moc).
+2023-12-07 16:14:09.409 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-12-07 16:14:09.409 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-12-07 16:14:09.409 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-12-07 16:14:09.409 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-12-07 16:14:09.409 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-12-07 16:14:09.409 +07:00 [DBG] Executing controller factory for controller Moc.Controllers.VillaController (Moc)
+2023-12-07 16:14:09.411 +07:00 [DBG] Executed controller factory for controller Moc.Controllers.VillaController (Moc)
+2023-12-07 16:14:09.411 +07:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' ...
+2023-12-07 16:14:09.411 +07:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2023-12-07 16:14:09.413 +07:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2023-12-07 16:14:09.413 +07:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2023-12-07 16:14:09.413 +07:00 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2023-12-07 16:14:09.413 +07:00 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2023-12-07 16:14:09.417 +07:00 [DBG] Entity Framework Core 7.0.14 initialized 'ApplicationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.14' with options: None
+2023-12-07 16:14:09.422 +07:00 [DBG] Compiling query expression: 
+'DbSet<Villa>()
+    .Where(s => s.Id == __id_0)
+    .FirstOrDefault()'
+2023-12-07 16:14:09.427 +07:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<Villa>(
+    asyncEnumerable: new SingleQueryingEnumerable<Villa>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.QueryExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Villa.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Villa.Amenity (string) Required, 1], [Property: Villa.CreatedDate (DateTime) Required, 2], [Property: Villa.Details (string) Required, 3], [Property: Villa.ImageUrl (string) Required, 4], [Property: Villa.Name (string) Required, 5], [Property: Villa.Occupancy (int) Required, 6], [Property: Villa.Rate (double) Required, 7], [Property: Villa.Sqft (int) Required, 8], [Property: Villa.UpdatedDate (DateTime) Required, 9] }
+            SELECT TOP(1) v.Id, v.Amenity, v.CreatedDate, v.Details, v.ImageUrl, v.Name, v.Occupancy, v.Rate, v.Sqft, v.UpdatedDate
+            FROM Villas AS v
+            WHERE v.Id == @__id_0), 
+        null, 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Villa>, 
+        Moc.Data.ApplicationContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2023-12-07 16:14:09.430 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-12-07 16:14:09.430 +07:00 [DBG] Creating DbConnection.
+2023-12-07 16:14:09.430 +07:00 [DBG] Created DbConnection. (0ms).
+2023-12-07 16:14:09.430 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-12-07 16:14:09.430 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2023-12-07 16:14:09.430 +07:00 [DBG] Opening connection to database 'VillaDb' on server '.'.
+2023-12-07 16:14:09.430 +07:00 [DBG] Opened connection to database 'VillaDb' on server '.'.
+2023-12-07 16:14:09.431 +07:00 [DBG] Executing DbCommand [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [v].[Id], [v].[Amenity], [v].[CreatedDate], [v].[Details], [v].[ImageUrl], [v].[Name], [v].[Occupancy], [v].[Rate], [v].[Sqft], [v].[UpdatedDate]
+FROM [Villas] AS [v]
+WHERE [v].[Id] = @__id_0
+2023-12-07 16:14:09.440 +07:00 [INF] Executed DbCommand (9ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [v].[Id], [v].[Amenity], [v].[CreatedDate], [v].[Details], [v].[ImageUrl], [v].[Name], [v].[Occupancy], [v].[Rate], [v].[Sqft], [v].[UpdatedDate]
+FROM [Villas] AS [v]
+WHERE [v].[Id] = @__id_0
+2023-12-07 16:14:09.441 +07:00 [DBG] Context 'ApplicationContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-12-07 16:14:09.443 +07:00 [DBG] Closing data reader to 'VillaDb' on server '.'.
+2023-12-07 16:14:09.443 +07:00 [DBG] A data reader for 'VillaDb' on server '.' is being disposed after spending 2ms reading results.
+2023-12-07 16:14:09.443 +07:00 [DBG] Closing connection to database 'VillaDb' on server '.'.
+2023-12-07 16:14:09.443 +07:00 [DBG] Closed connection to database 'VillaDb' on server '.' (0ms).
+2023-12-07 16:14:09.456 +07:00 [DBG] An entity of type 'Villa' tracked by 'ApplicationContext' changed state from '"Unchanged"' to '"Deleted"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-12-07 16:14:09.460 +07:00 [DBG] SaveChanges starting for 'ApplicationContext'.
+2023-12-07 16:14:09.462 +07:00 [DBG] DetectChanges starting for 'ApplicationContext'.
+2023-12-07 16:14:09.479 +07:00 [DBG] DetectChanges completed for 'ApplicationContext'.
+2023-12-07 16:14:09.527 +07:00 [DBG] Opening connection to database 'VillaDb' on server '.'.
+2023-12-07 16:14:09.527 +07:00 [DBG] Opened connection to database 'VillaDb' on server '.'.
+2023-12-07 16:14:09.529 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-12-07 16:14:09.529 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-12-07 16:14:09.529 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2023-12-07 16:14:09.529 +07:00 [DBG] Executing DbCommand [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [Villas]
+OUTPUT 1
+WHERE [Id] = @p0;
+2023-12-07 16:14:09.704 +07:00 [INF] Executed DbCommand (175ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [Villas]
+OUTPUT 1
+WHERE [Id] = @p0;
+2023-12-07 16:14:09.710 +07:00 [DBG] Closing data reader to 'VillaDb' on server '.'.
+2023-12-07 16:14:09.710 +07:00 [DBG] A data reader for 'VillaDb' on server '.' is being disposed after spending 6ms reading results.
+2023-12-07 16:14:09.712 +07:00 [DBG] Closing connection to database 'VillaDb' on server '.'.
+2023-12-07 16:14:09.712 +07:00 [DBG] Closed connection to database 'VillaDb' on server '.' (0ms).
+2023-12-07 16:14:09.718 +07:00 [DBG] An entity of type 'Villa' tracked by 'ApplicationContext' changed state from '"Deleted"' to '"Detached"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-12-07 16:14:09.720 +07:00 [DBG] SaveChanges completed for 'ApplicationContext' with 1 entities written to the database.
+2023-12-07 16:14:09.722 +07:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2023-12-07 16:14:09.722 +07:00 [INF] Executed action Moc.Controllers.VillaController.DeleteVilla (Moc) in 313.1257ms
+2023-12-07 16:14:09.722 +07:00 [INF] Executed endpoint 'Moc.Controllers.VillaController.DeleteVilla (Moc)'
+2023-12-07 16:14:09.722 +07:00 [DBG] Connection id "0HMVN0IDBN1G9" completed keep alive response.
+2023-12-07 16:14:09.722 +07:00 [DBG] 'ApplicationContext' disposed.
+2023-12-07 16:14:09.722 +07:00 [DBG] Disposing connection to database 'VillaDb' on server '.'.
+2023-12-07 16:14:09.723 +07:00 [DBG] Disposed connection to database '' on server '' (0ms).
+2023-12-07 16:14:09.723 +07:00 [INF] Request finished HTTP/1.1 DELETE http://localhost:5225/api/Villa/6 - - - 204 - - 331.8279ms
+2023-12-07 16:14:11.301 +07:00 [DBG] Connection id "0HMVN0IDBN1G9" received FIN.
+2023-12-07 16:14:11.301 +07:00 [DBG] Connection id "0HMVN0IDBN1G9" disconnecting.
+2023-12-07 16:14:11.301 +07:00 [DBG] Connection id "0HMVN0IDBN1G9" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-12-07 16:14:11.314 +07:00 [DBG] Connection id "0HMVN0IDBN1G9" stopped.
+2023-12-07 16:14:14.614 +07:00 [DBG] Connection id "0HMVN0IDBN1GA" accepted.
+2023-12-07 16:14:14.614 +07:00 [DBG] Connection id "0HMVN0IDBN1GA" started.
+2023-12-07 16:14:14.615 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5225/api/Villa - -
+2023-12-07 16:14:14.615 +07:00 [DBG] 1 candidate(s) found for the request path '/api/Villa'
+2023-12-07 16:14:14.615 +07:00 [DBG] Endpoint 'Moc.Controllers.VillaController.GetVillas (Moc)' with route pattern 'api/Villa' is valid for the request path '/api/Villa'
+2023-12-07 16:14:14.615 +07:00 [DBG] Request matched endpoint 'Moc.Controllers.VillaController.GetVillas (Moc)'
+2023-12-07 16:14:14.615 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-12-07 16:14:14.615 +07:00 [DBG] Successfully validated the token.
+2023-12-07 16:14:14.615 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2023-12-07 16:14:14.616 +07:00 [DBG] Authorization was successful.
+2023-12-07 16:14:14.616 +07:00 [INF] Executing endpoint 'Moc.Controllers.VillaController.GetVillas (Moc)'
+2023-12-07 16:14:14.616 +07:00 [INF] Route matched with {action = "GetVillas", controller = "Villa"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Moc.Models.APIResponse]] GetVillas(System.String) on controller Moc.Controllers.VillaController (Moc).
+2023-12-07 16:14:14.616 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-12-07 16:14:14.616 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-12-07 16:14:14.616 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-12-07 16:14:14.616 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-12-07 16:14:14.616 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-12-07 16:14:14.616 +07:00 [DBG] Executing controller factory for controller Moc.Controllers.VillaController (Moc)
+2023-12-07 16:14:14.616 +07:00 [DBG] Executed controller factory for controller Moc.Controllers.VillaController (Moc)
+2023-12-07 16:14:14.616 +07:00 [DBG] Attempting to bind parameter 'query' of type 'System.String' ...
+2023-12-07 16:14:14.616 +07:00 [DBG] Attempting to bind parameter 'query' of type 'System.String' using the name '' in request data ...
+2023-12-07 16:14:14.617 +07:00 [DBG] Could not find a value in the request with name '' for binding parameter 'query' of type 'System.String'.
+2023-12-07 16:14:14.617 +07:00 [DBG] Done attempting to bind parameter 'query' of type 'System.String'.
+2023-12-07 16:14:14.617 +07:00 [DBG] Done attempting to bind parameter 'query' of type 'System.String'.
+2023-12-07 16:14:14.617 +07:00 [DBG] Attempting to validate the bound parameter 'query' of type 'System.String' ...
+2023-12-07 16:14:14.617 +07:00 [DBG] Done attempting to validate the bound parameter 'query' of type 'System.String'.
+2023-12-07 16:14:14.617 +07:00 [DBG] Entity Framework Core 7.0.14 initialized 'ApplicationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.14' with options: None
+2023-12-07 16:14:14.618 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-12-07 16:14:14.618 +07:00 [DBG] Creating DbConnection.
+2023-12-07 16:14:14.618 +07:00 [DBG] Created DbConnection. (0ms).
+2023-12-07 16:14:14.618 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-12-07 16:14:14.618 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2023-12-07 16:14:14.618 +07:00 [DBG] Opening connection to database 'VillaDb' on server '.'.
+2023-12-07 16:14:14.618 +07:00 [DBG] Opened connection to database 'VillaDb' on server '.'.
+2023-12-07 16:14:14.618 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[Amenity], [v].[CreatedDate], [v].[Details], [v].[ImageUrl], [v].[Name], [v].[Occupancy], [v].[Rate], [v].[Sqft], [v].[UpdatedDate]
+FROM [Villas] AS [v]
+ORDER BY [v].[Name]
+2023-12-07 16:14:14.621 +07:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[Amenity], [v].[CreatedDate], [v].[Details], [v].[ImageUrl], [v].[Name], [v].[Occupancy], [v].[Rate], [v].[Sqft], [v].[UpdatedDate]
+FROM [Villas] AS [v]
+ORDER BY [v].[Name]
+2023-12-07 16:14:14.621 +07:00 [DBG] Context 'ApplicationContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-12-07 16:14:14.621 +07:00 [DBG] Context 'ApplicationContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-12-07 16:14:14.622 +07:00 [DBG] Closing data reader to 'VillaDb' on server '.'.
+2023-12-07 16:14:14.622 +07:00 [DBG] A data reader for 'VillaDb' on server '.' is being disposed after spending 0ms reading results.
+2023-12-07 16:14:14.622 +07:00 [DBG] Closing connection to database 'VillaDb' on server '.'.
+2023-12-07 16:14:14.622 +07:00 [DBG] Closed connection to database 'VillaDb' on server '.' (0ms).
+2023-12-07 16:14:14.622 +07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2023-12-07 16:14:14.623 +07:00 [DBG] Attempting to select an output formatter based on Accept header '["application/json"]'.
+2023-12-07 16:14:14.623 +07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-12-07 16:14:14.623 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Moc.DTO.VillaDTO, Moc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-12-07 16:14:14.623 +07:00 [INF] Executed action Moc.Controllers.VillaController.GetVillas (Moc) in 7.1989ms
+2023-12-07 16:14:14.624 +07:00 [INF] Executed endpoint 'Moc.Controllers.VillaController.GetVillas (Moc)'
+2023-12-07 16:14:14.624 +07:00 [DBG] Connection id "0HMVN0IDBN1GA" completed keep alive response.
+2023-12-07 16:14:14.624 +07:00 [DBG] 'ApplicationContext' disposed.
+2023-12-07 16:14:14.624 +07:00 [DBG] Disposing connection to database 'VillaDb' on server '.'.
+2023-12-07 16:14:14.624 +07:00 [DBG] Disposed connection to database '' on server '' (0ms).
+2023-12-07 16:14:14.624 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5225/api/Villa - - - 200 253 application/json;+charset=utf-8 9.4950ms
+2023-12-07 16:14:16.302 +07:00 [DBG] Connection id "0HMVN0IDBN1GA" received FIN.
+2023-12-07 16:14:16.303 +07:00 [DBG] Connection id "0HMVN0IDBN1GA" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-12-07 16:14:16.303 +07:00 [DBG] Connection id "0HMVN0IDBN1GA" disconnecting.
+2023-12-07 16:14:16.303 +07:00 [DBG] Connection id "0HMVN0IDBN1GA" stopped.
+2023-12-07 16:16:16.053 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-12-07 16:16:16.267 +07:00 [DBG] Hosting starting
+2023-12-07 16:16:16.300 +07:00 [INF] User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-07 16:16:16.304 +07:00 [DBG] Reading data from file 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys\key-89ab2015-9967-47e1-965a-65d13ae4bf9f.xml'.
+2023-12-07 16:16:16.320 +07:00 [DBG] Found key {89ab2015-9967-47e1-965a-65d13ae4bf9f}.
+2023-12-07 16:16:16.333 +07:00 [DBG] Considering key {89ab2015-9967-47e1-965a-65d13ae4bf9f} with expiration date 2024-02-25 02:03:06Z as default key.
+2023-12-07 16:16:16.336 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-12-07 16:16:16.338 +07:00 [DBG] Decrypting secret element using Windows DPAPI.
+2023-12-07 16:16:16.340 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-12-07 16:16:16.343 +07:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2023-12-07 16:16:16.344 +07:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2023-12-07 16:16:16.345 +07:00 [DBG] Using key {89ab2015-9967-47e1-965a-65d13ae4bf9f} as the default key.
+2023-12-07 16:16:16.346 +07:00 [DBG] Key ring with default key {89ab2015-9967-47e1-965a-65d13ae4bf9f} was loaded during application startup.
+2023-12-07 16:16:16.561 +07:00 [INF] Now listening on: http://localhost:5225
+2023-12-07 16:16:16.561 +07:00 [DBG] Loaded hosting startup assembly Moc
+2023-12-07 16:16:16.561 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-12-07 16:16:16.561 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-12-07 16:16:16.562 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-07 16:16:16.562 +07:00 [INF] Hosting environment: Development
+2023-12-07 16:16:16.562 +07:00 [INF] Content root path: D:\Moc
+2023-12-07 16:16:16.562 +07:00 [DBG] Hosting started
+2023-12-07 16:16:16.804 +07:00 [DBG] Connection id "0HMVN0KLCQ9CL" accepted.
+2023-12-07 16:16:16.804 +07:00 [DBG] Connection id "0HMVN0KLCQ9CK" accepted.
+2023-12-07 16:16:16.806 +07:00 [DBG] Connection id "0HMVN0KLCQ9CL" started.
+2023-12-07 16:16:16.812 +07:00 [DBG] Connection id "0HMVN0KLCQ9CK" received FIN.
+2023-12-07 16:16:16.815 +07:00 [DBG] Connection id "0HMVN0KLCQ9CL" received FIN.
+2023-12-07 16:16:16.815 +07:00 [DBG] Connection id "0HMVN0KLCQ9CK" started.
+2023-12-07 16:16:16.865 +07:00 [DBG] Connection id "0HMVN0KLCQ9CL" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-12-07 16:16:16.865 +07:00 [DBG] Connection id "0HMVN0KLCQ9CK" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-12-07 16:16:16.868 +07:00 [DBG] Connection id "0HMVN0KLCQ9CL" disconnecting.
+2023-12-07 16:16:16.868 +07:00 [DBG] Connection id "0HMVN0KLCQ9CK" disconnecting.
+2023-12-07 16:16:16.873 +07:00 [DBG] Connection id "0HMVN0KLCQ9CL" stopped.
+2023-12-07 16:16:16.873 +07:00 [DBG] Connection id "0HMVN0KLCQ9CK" stopped.
+2023-12-07 16:16:17.717 +07:00 [DBG] Connection id "0HMVN0KLCQ9CM" accepted.
+2023-12-07 16:16:17.721 +07:00 [DBG] Connection id "0HMVN0KLCQ9CM" started.
+2023-12-07 16:16:17.729 +07:00 [DBG] Connection id "0HMVN0KLCQ9CN" accepted.
+2023-12-07 16:16:17.730 +07:00 [DBG] Connection id "0HMVN0KLCQ9CN" started.
+2023-12-07 16:16:18.262 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5225/swagger/index.html - -
+2023-12-07 16:16:18.305 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-12-07 16:16:18.344 +07:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-12-07 16:16:18.345 +07:00 [DBG] Request did not match any endpoints
+2023-12-07 16:16:18.577 +07:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-12-07 16:16:18.781 +07:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-12-07 16:16:18.781 +07:00 [DBG] Connection id "0HMVN0KLCQ9CM" completed keep alive response.
+2023-12-07 16:16:18.783 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5225/swagger/index.html - - - 200 - text/html;charset=utf-8 531.3607ms
+2023-12-07 16:16:18.964 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5225/_framework/aspnetcore-browser-refresh.js - -
+2023-12-07 16:16:18.966 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5225/_vs/browserLink - -
+2023-12-07 16:16:18.967 +07:00 [DBG] Connection id "0HMVN0KLCQ9CM" completed keep alive response.
+2023-12-07 16:16:18.967 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5225/_framework/aspnetcore-browser-refresh.js - - - 200 12338 application/javascript;+charset=utf-8 3.7698ms
+2023-12-07 16:16:19.345 +07:00 [DBG] Connection id "0HMVN0KLCQ9CN" completed keep alive response.
+2023-12-07 16:16:19.346 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5225/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 379.0740ms
+2023-12-07 16:16:21.229 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5225/swagger/v1/swagger.json - -
+2023-12-07 16:16:21.230 +07:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-12-07 16:16:21.230 +07:00 [DBG] Request did not match any endpoints
+2023-12-07 16:16:21.468 +07:00 [DBG] Connection id "0HMVN0KLCQ9CM" received FIN.
+2023-12-07 16:16:21.470 +07:00 [DBG] Connection id "0HMVN0KLCQ9CM" disconnecting.
+2023-12-07 16:16:21.470 +07:00 [DBG] Connection id "0HMVN0KLCQ9CM" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-12-07 16:16:21.472 +07:00 [DBG] Connection id "0HMVN0KLCQ9CM" stopped.
+2023-12-07 16:16:21.521 +07:00 [DBG] Connection id "0HMVN0KLCQ9CN" completed keep alive response.
+2023-12-07 16:16:21.521 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5225/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 291.8118ms
+2023-12-07 16:16:26.468 +07:00 [DBG] Connection id "0HMVN0KLCQ9CN" received FIN.
+2023-12-07 16:16:26.468 +07:00 [DBG] Connection id "0HMVN0KLCQ9CN" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-12-07 16:16:26.468 +07:00 [DBG] Connection id "0HMVN0KLCQ9CN" disconnecting.
+2023-12-07 16:16:26.468 +07:00 [DBG] Connection id "0HMVN0KLCQ9CN" stopped.
+2023-12-07 16:16:37.916 +07:00 [DBG] Connection id "0HMVN0KLCQ9CO" accepted.
+2023-12-07 16:16:37.916 +07:00 [DBG] Connection id "0HMVN0KLCQ9CO" started.
+2023-12-07 16:16:37.917 +07:00 [INF] Request starting HTTP/1.1 POST http://localhost:5225/api/UsersAuth/login application/json-patch+json 53
+2023-12-07 16:16:37.923 +07:00 [DBG] 1 candidate(s) found for the request path '/api/UsersAuth/login'
+2023-12-07 16:16:37.927 +07:00 [DBG] Endpoint 'Moc.Controllers.UsersController.Login (Moc)' with route pattern 'api/UsersAuth/login' is valid for the request path '/api/UsersAuth/login'
+2023-12-07 16:16:37.928 +07:00 [DBG] Request matched endpoint 'Moc.Controllers.UsersController.Login (Moc)'
+2023-12-07 16:16:37.931 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-12-07 16:16:37.938 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-07 16:16:38.053 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2023-12-07 16:16:38.056 +07:00 [INF] Executing endpoint 'Moc.Controllers.UsersController.Login (Moc)'
+2023-12-07 16:16:38.083 +07:00 [INF] Route matched with {action = "Login", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(Moc.DTO.LoginRequestDTO) on controller Moc.Controllers.UsersController (Moc).
+2023-12-07 16:16:38.086 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-12-07 16:16:38.086 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-12-07 16:16:38.087 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.Filters.ControllerActionFilter (Order: -2147483648)","Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)","Microsoft.AspNetCore.Mvc.Filters.ResponseCacheFilter"]
+2023-12-07 16:16:38.087 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-12-07 16:16:38.087 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-12-07 16:16:38.088 +07:00 [DBG] Executing controller factory for controller Moc.Controllers.UsersController (Moc)
+2023-12-07 16:16:38.386 +07:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-12-07 16:16:38.412 +07:00 [DBG] Executed controller factory for controller Moc.Controllers.UsersController (Moc)
+2023-12-07 16:16:38.420 +07:00 [DBG] Attempting to bind parameter 'model' of type 'Moc.DTO.LoginRequestDTO' ...
+2023-12-07 16:16:38.423 +07:00 [DBG] Attempting to bind parameter 'model' of type 'Moc.DTO.LoginRequestDTO' using the name '' in request data ...
+2023-12-07 16:16:38.424 +07:00 [DBG] Rejected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json-patch+json'.
+2023-12-07 16:16:38.424 +07:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonInputFormatter' for content type 'application/json-patch+json'.
+2023-12-07 16:16:38.445 +07:00 [DBG] Connection id "0HMVN0KLCQ9CO", Request id "0HMVN0KLCQ9CO:00000001": started reading request body.
+2023-12-07 16:16:38.445 +07:00 [DBG] Connection id "0HMVN0KLCQ9CO", Request id "0HMVN0KLCQ9CO:00000001": done reading request body.
+2023-12-07 16:16:38.558 +07:00 [DBG] Done attempting to bind parameter 'model' of type 'Moc.DTO.LoginRequestDTO'.
+2023-12-07 16:16:38.558 +07:00 [DBG] Done attempting to bind parameter 'model' of type 'Moc.DTO.LoginRequestDTO'.
+2023-12-07 16:16:38.558 +07:00 [DBG] Attempting to validate the bound parameter 'model' of type 'Moc.DTO.LoginRequestDTO' ...
+2023-12-07 16:16:38.570 +07:00 [DBG] Done attempting to validate the bound parameter 'model' of type 'Moc.DTO.LoginRequestDTO'.
+2023-12-07 16:16:39.177 +07:00 [DBG] Entity Framework Core 7.0.14 initialized 'ApplicationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.14' with options: None
+2023-12-07 16:16:39.260 +07:00 [DBG] Compiling query expression: 
+'DbSet<LocalUser>()
+    .FirstOrDefault(s => s.UserName.ToLower() == __ToLower_0)'
+2023-12-07 16:16:39.502 +07:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<LocalUser>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: LocalUser.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: LocalUser.Name (string) Required, 1], [Property: LocalUser.Password (string) Required, 2], [Property: LocalUser.Role (string) Required, 3], [Property: LocalUser.UserName (string) Required, 4] }
+        SELECT TOP(1) l.Id, l.Name, l.Password, l.Role, l.UserName
+        FROM LocalUsers AS l
+        WHERE LOWER(l.UserName) == @__ToLower_0), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, LocalUser>, 
+    Moc.Data.ApplicationContext, 
+    False, 
+    False, 
+    True
+)
+    .SingleOrDefault()'
+2023-12-07 16:16:39.539 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-12-07 16:16:39.541 +07:00 [DBG] Creating DbConnection.
+2023-12-07 16:16:39.571 +07:00 [DBG] Created DbConnection. (27ms).
+2023-12-07 16:16:39.583 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (39ms).
+2023-12-07 16:16:39.594 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (57ms).
+2023-12-07 16:16:39.599 +07:00 [DBG] Opening connection to database 'VillaDb' on server '.'.
+2023-12-07 16:16:39.938 +07:00 [DBG] Opened connection to database 'VillaDb' on server '.'.
+2023-12-07 16:16:39.945 +07:00 [DBG] Executing DbCommand [Parameters=[@__ToLower_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [l].[Id], [l].[Name], [l].[Password], [l].[Role], [l].[UserName]
+FROM [LocalUsers] AS [l]
+WHERE LOWER([l].[UserName]) = @__ToLower_0
+2023-12-07 16:16:39.994 +07:00 [INF] Executed DbCommand (51ms) [Parameters=[@__ToLower_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [l].[Id], [l].[Name], [l].[Password], [l].[Role], [l].[UserName]
+FROM [LocalUsers] AS [l]
+WHERE LOWER([l].[UserName]) = @__ToLower_0
+2023-12-07 16:16:40.010 +07:00 [DBG] Context 'ApplicationContext' started tracking 'LocalUser' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-12-07 16:16:40.026 +07:00 [DBG] Closing data reader to 'VillaDb' on server '.'.
+2023-12-07 16:16:40.033 +07:00 [DBG] A data reader for 'VillaDb' on server '.' is being disposed after spending 33ms reading results.
+2023-12-07 16:16:40.034 +07:00 [DBG] Closing connection to database 'VillaDb' on server '.'.
+2023-12-07 16:16:40.038 +07:00 [DBG] Closed connection to database 'VillaDb' on server '.' (3ms).
+2023-12-07 16:16:40.157 +07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2023-12-07 16:16:40.159 +07:00 [DBG] No information found on request to perform content negotiation.
+2023-12-07 16:16:40.159 +07:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2023-12-07 16:16:40.159 +07:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2023-12-07 16:16:40.160 +07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-12-07 16:16:40.160 +07:00 [INF] Executing OkObjectResult, writing value of type 'Moc.Models.APIResponse'.
+2023-12-07 16:16:40.211 +07:00 [INF] Executed action Moc.Controllers.UsersController.Login (Moc) in 2121.3389ms
+2023-12-07 16:16:40.212 +07:00 [INF] Executed endpoint 'Moc.Controllers.UsersController.Login (Moc)'
+2023-12-07 16:16:40.212 +07:00 [DBG] Connection id "0HMVN0KLCQ9CO" completed keep alive response.
+2023-12-07 16:16:40.215 +07:00 [DBG] 'ApplicationContext' disposed.
+2023-12-07 16:16:40.219 +07:00 [DBG] Disposing connection to database 'VillaDb' on server '.'.
+2023-12-07 16:16:40.221 +07:00 [DBG] Disposed connection to database '' on server '' (2ms).
+2023-12-07 16:16:40.221 +07:00 [INF] Request finished HTTP/1.1 POST http://localhost:5225/api/UsersAuth/login application/json-patch+json 53 - 200 384 application/json;+charset=utf-8 2304.0845ms
+2023-12-07 16:16:41.487 +07:00 [DBG] Connection id "0HMVN0KLCQ9CO" received FIN.
+2023-12-07 16:16:41.487 +07:00 [DBG] Connection id "0HMVN0KLCQ9CO" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-12-07 16:16:41.487 +07:00 [DBG] Connection id "0HMVN0KLCQ9CO" disconnecting.
+2023-12-07 16:16:41.487 +07:00 [DBG] Connection id "0HMVN0KLCQ9CO" stopped.
+2023-12-07 16:23:25.009 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-12-07 16:23:25.211 +07:00 [DBG] Hosting starting
+2023-12-07 16:23:25.255 +07:00 [INF] User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-07 16:23:25.262 +07:00 [DBG] Reading data from file 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys\key-89ab2015-9967-47e1-965a-65d13ae4bf9f.xml'.
+2023-12-07 16:23:25.282 +07:00 [DBG] Found key {89ab2015-9967-47e1-965a-65d13ae4bf9f}.
+2023-12-07 16:23:25.294 +07:00 [DBG] Considering key {89ab2015-9967-47e1-965a-65d13ae4bf9f} with expiration date 2024-02-25 02:03:06Z as default key.
+2023-12-07 16:23:25.580 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-12-07 16:23:25.581 +07:00 [DBG] Decrypting secret element using Windows DPAPI.
+2023-12-07 16:23:25.582 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-12-07 16:23:25.584 +07:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2023-12-07 16:23:25.585 +07:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2023-12-07 16:23:25.586 +07:00 [DBG] Using key {89ab2015-9967-47e1-965a-65d13ae4bf9f} as the default key.
+2023-12-07 16:23:25.586 +07:00 [DBG] Key ring with default key {89ab2015-9967-47e1-965a-65d13ae4bf9f} was loaded during application startup.
+2023-12-07 16:23:25.729 +07:00 [INF] Now listening on: http://localhost:5225
+2023-12-07 16:23:25.729 +07:00 [DBG] Loaded hosting startup assembly Moc
+2023-12-07 16:23:25.729 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-12-07 16:23:25.729 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-12-07 16:23:25.729 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-07 16:23:25.729 +07:00 [INF] Hosting environment: Development
+2023-12-07 16:23:25.729 +07:00 [INF] Content root path: D:\Moc
+2023-12-07 16:23:25.729 +07:00 [DBG] Hosting started
+2023-12-07 16:23:26.080 +07:00 [DBG] Connection id "0HMVN0OLAMRAQ" received FIN.
+2023-12-07 16:23:26.080 +07:00 [DBG] Connection id "0HMVN0OLAMRAP" received FIN.
+2023-12-07 16:23:26.088 +07:00 [DBG] Connection id "0HMVN0OLAMRAP" accepted.
+2023-12-07 16:23:26.088 +07:00 [DBG] Connection id "0HMVN0OLAMRAQ" accepted.
+2023-12-07 16:23:26.089 +07:00 [DBG] Connection id "0HMVN0OLAMRAP" started.
+2023-12-07 16:23:26.089 +07:00 [DBG] Connection id "0HMVN0OLAMRAQ" started.
+2023-12-07 16:23:26.099 +07:00 [DBG] Connection id "0HMVN0OLAMRAP" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-12-07 16:23:26.099 +07:00 [DBG] Connection id "0HMVN0OLAMRAQ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-12-07 16:23:26.100 +07:00 [DBG] Connection id "0HMVN0OLAMRAP" disconnecting.
+2023-12-07 16:23:26.100 +07:00 [DBG] Connection id "0HMVN0OLAMRAQ" disconnecting.
+2023-12-07 16:23:26.103 +07:00 [DBG] Connection id "0HMVN0OLAMRAQ" stopped.
+2023-12-07 16:23:26.103 +07:00 [DBG] Connection id "0HMVN0OLAMRAP" stopped.
+2023-12-07 16:23:26.778 +07:00 [DBG] Connection id "0HMVN0OLAMRAR" accepted.
+2023-12-07 16:23:26.784 +07:00 [DBG] Connection id "0HMVN0OLAMRAS" accepted.
+2023-12-07 16:23:26.791 +07:00 [DBG] Connection id "0HMVN0OLAMRAR" started.
+2023-12-07 16:23:26.791 +07:00 [DBG] Connection id "0HMVN0OLAMRAS" started.
+2023-12-07 16:23:26.994 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5225/swagger/index.html - -
+2023-12-07 16:23:27.112 +07:00 [DBG] Connection id "0HMVN0OLAMRAR" received FIN.
+2023-12-07 16:23:27.114 +07:00 [DBG] Connection id "0HMVN0OLAMRAR" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-12-07 16:23:27.114 +07:00 [DBG] Connection id "0HMVN0OLAMRAR" disconnecting.
+2023-12-07 16:23:27.122 +07:00 [DBG] Connection id "0HMVN0OLAMRAR" stopped.
+2023-12-07 16:23:27.161 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-12-07 16:23:27.254 +07:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-12-07 16:23:27.255 +07:00 [DBG] Request did not match any endpoints
+2023-12-07 16:23:27.428 +07:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-12-07 16:23:27.680 +07:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-12-07 16:23:27.680 +07:00 [DBG] Connection id "0HMVN0OLAMRAS" completed keep alive response.
+2023-12-07 16:23:27.683 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5225/swagger/index.html - - - 200 - text/html;charset=utf-8 694.1704ms
+2023-12-07 16:23:27.796 +07:00 [DBG] Connection id "0HMVN0OLAMRAT" accepted.
+2023-12-07 16:23:27.796 +07:00 [DBG] Connection id "0HMVN0OLAMRAT" started.
+2023-12-07 16:23:27.797 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5225/_vs/browserLink - -
+2023-12-07 16:23:27.831 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5225/_framework/aspnetcore-browser-refresh.js - -
+2023-12-07 16:23:27.888 +07:00 [DBG] Connection id "0HMVN0OLAMRAS" completed keep alive response.
+2023-12-07 16:23:27.889 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5225/_framework/aspnetcore-browser-refresh.js - - - 200 12338 application/javascript;+charset=utf-8 57.7363ms
+2023-12-07 16:23:27.923 +07:00 [DBG] Connection id "0HMVN0OLAMRAT" completed keep alive response.
+2023-12-07 16:23:27.923 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5225/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 126.2088ms
+2023-12-07 16:23:29.195 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5225/swagger/v1/swagger.json - -
+2023-12-07 16:23:29.195 +07:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-12-07 16:23:29.195 +07:00 [DBG] Request did not match any endpoints
+2023-12-07 16:23:29.462 +07:00 [DBG] Connection id "0HMVN0OLAMRAT" completed keep alive response.
+2023-12-07 16:23:29.463 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5225/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 267.9587ms
+2023-12-07 16:23:32.113 +07:00 [DBG] Connection id "0HMVN0OLAMRAS" received FIN.
+2023-12-07 16:23:32.113 +07:00 [DBG] Connection id "0HMVN0OLAMRAT" received FIN.
+2023-12-07 16:23:32.113 +07:00 [DBG] Connection id "0HMVN0OLAMRAS" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-12-07 16:23:32.113 +07:00 [DBG] Connection id "0HMVN0OLAMRAT" disconnecting.
+2023-12-07 16:23:32.113 +07:00 [DBG] Connection id "0HMVN0OLAMRAT" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-12-07 16:23:32.113 +07:00 [DBG] Connection id "0HMVN0OLAMRAS" disconnecting.
+2023-12-07 16:23:32.127 +07:00 [DBG] Connection id "0HMVN0OLAMRAS" stopped.
+2023-12-07 16:23:32.127 +07:00 [DBG] Connection id "0HMVN0OLAMRAT" stopped.
+2023-12-07 16:26:01.144 +07:00 [DBG] Connection id "0HMVN0OLAMRAU" accepted.
+2023-12-07 16:26:01.144 +07:00 [DBG] Connection id "0HMVN0OLAMRAU" started.
+2023-12-07 16:26:01.151 +07:00 [INF] Request starting HTTP/1.1 PATCH http://localhost:5225/api/Villa/3 application/json-patch+json 77
+2023-12-07 16:26:01.156 +07:00 [DBG] 1 candidate(s) found for the request path '/api/Villa/3'
+2023-12-07 16:26:01.159 +07:00 [DBG] Endpoint 'Moc.Controllers.VillaController.UpdatePartialVilla (Moc)' with route pattern 'api/Villa/{id:int}' is valid for the request path '/api/Villa/3'
+2023-12-07 16:26:01.160 +07:00 [DBG] Request matched endpoint 'Moc.Controllers.VillaController.UpdatePartialVilla (Moc)'
+2023-12-07 16:26:01.161 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-12-07 16:26:01.164 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-07 16:26:01.243 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2023-12-07 16:26:01.247 +07:00 [INF] Executing endpoint 'Moc.Controllers.VillaController.UpdatePartialVilla (Moc)'
+2023-12-07 16:26:01.278 +07:00 [INF] Route matched with {action = "UpdatePartialVilla", controller = "Villa"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdatePartialVilla(Int32, Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1[Moc.DTO.VillaUpdateDTO]) on controller Moc.Controllers.VillaController (Moc).
+2023-12-07 16:26:01.281 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-12-07 16:26:01.281 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-12-07 16:26:01.281 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-12-07 16:26:01.281 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-12-07 16:26:01.281 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-12-07 16:26:01.283 +07:00 [DBG] Executing controller factory for controller Moc.Controllers.VillaController (Moc)
+2023-12-07 16:26:01.485 +07:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-12-07 16:26:01.590 +07:00 [DBG] Executed controller factory for controller Moc.Controllers.VillaController (Moc)
+2023-12-07 16:26:01.596 +07:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' ...
+2023-12-07 16:26:01.599 +07:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2023-12-07 16:26:01.601 +07:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2023-12-07 16:26:01.601 +07:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2023-12-07 16:26:01.601 +07:00 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2023-12-07 16:26:01.603 +07:00 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2023-12-07 16:26:01.604 +07:00 [DBG] Attempting to bind parameter 'patchDTO' of type 'Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1[Moc.DTO.VillaUpdateDTO]' ...
+2023-12-07 16:26:01.605 +07:00 [DBG] Attempting to bind parameter 'patchDTO' of type 'Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1[Moc.DTO.VillaUpdateDTO]' using the name '' in request data ...
+2023-12-07 16:26:01.606 +07:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json-patch+json'.
+2023-12-07 16:26:01.621 +07:00 [DBG] Connection id "0HMVN0OLAMRAU", Request id "0HMVN0OLAMRAU:00000001": started reading request body.
+2023-12-07 16:26:01.621 +07:00 [DBG] Connection id "0HMVN0OLAMRAU", Request id "0HMVN0OLAMRAU:00000001": done reading request body.
+2023-12-07 16:26:01.734 +07:00 [DBG] Done attempting to bind parameter 'patchDTO' of type 'Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1[Moc.DTO.VillaUpdateDTO]'.
+2023-12-07 16:26:01.735 +07:00 [DBG] Done attempting to bind parameter 'patchDTO' of type 'Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1[Moc.DTO.VillaUpdateDTO]'.
+2023-12-07 16:26:01.735 +07:00 [DBG] Attempting to validate the bound parameter 'patchDTO' of type 'Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1[Moc.DTO.VillaUpdateDTO]' ...
+2023-12-07 16:26:01.739 +07:00 [DBG] Done attempting to validate the bound parameter 'patchDTO' of type 'Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1[Moc.DTO.VillaUpdateDTO]'.
+2023-12-07 16:26:02.358 +07:00 [DBG] Entity Framework Core 7.0.14 initialized 'ApplicationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.14' with options: None
+2023-12-07 16:26:02.464 +07:00 [DBG] Compiling query expression: 
+'DbSet<Villa>()
+    .AsNoTracking()
+    .Where(s => s.Id == __id_0)
+    .FirstOrDefault()'
+2023-12-07 16:26:02.632 +07:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<Villa>(
+    asyncEnumerable: new SingleQueryingEnumerable<Villa>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.QueryExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Villa.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Villa.Amenity (string) Required, 1], [Property: Villa.CreatedDate (DateTime) Required, 2], [Property: Villa.Details (string) Required, 3], [Property: Villa.ImageUrl (string) Required, 4], [Property: Villa.Name (string) Required, 5], [Property: Villa.Occupancy (int) Required, 6], [Property: Villa.Rate (double) Required, 7], [Property: Villa.Sqft (int) Required, 8], [Property: Villa.UpdatedDate (DateTime) Required, 9] }
+            SELECT TOP(1) v.Id, v.Amenity, v.CreatedDate, v.Details, v.ImageUrl, v.Name, v.Occupancy, v.Rate, v.Sqft, v.UpdatedDate
+            FROM Villas AS v
+            WHERE v.Id == @__id_0), 
+        null, 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Villa>, 
+        Moc.Data.ApplicationContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2023-12-07 16:26:02.685 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-12-07 16:26:02.687 +07:00 [DBG] Creating DbConnection.
+2023-12-07 16:26:02.714 +07:00 [DBG] Created DbConnection. (22ms).
+2023-12-07 16:26:02.722 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (38ms).
+2023-12-07 16:26:02.734 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (51ms).
+2023-12-07 16:26:02.738 +07:00 [DBG] Opening connection to database 'VillaDb' on server '.'.
+2023-12-07 16:26:03.088 +07:00 [DBG] Opened connection to database 'VillaDb' on server '.'.
+2023-12-07 16:26:03.101 +07:00 [DBG] Executing DbCommand [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [v].[Id], [v].[Amenity], [v].[CreatedDate], [v].[Details], [v].[ImageUrl], [v].[Name], [v].[Occupancy], [v].[Rate], [v].[Sqft], [v].[UpdatedDate]
+FROM [Villas] AS [v]
+WHERE [v].[Id] = @__id_0
+2023-12-07 16:26:03.197 +07:00 [INF] Executed DbCommand (101ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [v].[Id], [v].[Amenity], [v].[CreatedDate], [v].[Details], [v].[ImageUrl], [v].[Name], [v].[Occupancy], [v].[Rate], [v].[Sqft], [v].[UpdatedDate]
+FROM [Villas] AS [v]
+WHERE [v].[Id] = @__id_0
+2023-12-07 16:26:03.226 +07:00 [DBG] Closing data reader to 'VillaDb' on server '.'.
+2023-12-07 16:26:03.236 +07:00 [DBG] A data reader for 'VillaDb' on server '.' is being disposed after spending 32ms reading results.
+2023-12-07 16:26:03.240 +07:00 [DBG] Closing connection to database 'VillaDb' on server '.'.
+2023-12-07 16:26:03.245 +07:00 [DBG] Closed connection to database 'VillaDb' on server '.' (4ms).
+2023-12-07 16:26:03.362 +07:00 [INF] Executed action Moc.Controllers.VillaController.UpdatePartialVilla (Moc) in 2077.7408ms
+2023-12-07 16:26:03.364 +07:00 [INF] Executed endpoint 'Moc.Controllers.VillaController.UpdatePartialVilla (Moc)'
+2023-12-07 16:26:03.367 +07:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: Value cannot be null. (Parameter 'path')
+   at Microsoft.AspNetCore.JsonPatch.Internal.ParsedPath..ctor(String path)
+   at Microsoft.AspNetCore.JsonPatch.Adapters.ObjectAdapter.Replace(Operation operation, Object objectToApplyTo)
+   at Microsoft.AspNetCore.JsonPatch.Operations.Operation`1.Apply(TModel objectToApplyTo, IObjectAdapter adapter)
+   at Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1.ApplyTo(TModel objectToApplyTo, IObjectAdapter adapter, Action`1 logErrorAction)
+   at Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1.ApplyTo(TModel objectToApplyTo, Action`1 logErrorAction)
+   at Microsoft.AspNetCore.Mvc.JsonPatchExtensions.ApplyTo[T](JsonPatchDocument`1 patchDoc, T objectToApplyTo, ModelStateDictionary modelState, String prefix)
+   at Microsoft.AspNetCore.Mvc.JsonPatchExtensions.ApplyTo[T](JsonPatchDocument`1 patchDoc, T objectToApplyTo, ModelStateDictionary modelState)
+   at Moc.Controllers.VillaController.UpdatePartialVilla(Int32 id, JsonPatchDocument`1 patchDTO) in D:\Moc\Controllers\VillaControllercs.cs:line 205
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-12-07 16:26:03.417 +07:00 [DBG] Connection id "0HMVN0OLAMRAU" completed keep alive response.
+2023-12-07 16:26:03.419 +07:00 [DBG] 'ApplicationContext' disposed.
+2023-12-07 16:26:03.422 +07:00 [DBG] Disposing connection to database 'VillaDb' on server '.'.
+2023-12-07 16:26:03.423 +07:00 [DBG] Disposed connection to database '' on server '' (1ms).
+2023-12-07 16:26:03.423 +07:00 [INF] Request finished HTTP/1.1 PATCH http://localhost:5225/api/Villa/3 application/json-patch+json 77 - 500 - text/plain;+charset=utf-8 2272.0594ms
+2023-12-07 16:26:12.327 +07:00 [DBG] Connection id "0HMVN0OLAMRAU" received FIN.
+2023-12-07 16:26:12.327 +07:00 [DBG] Connection id "0HMVN0OLAMRAU" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-12-07 16:26:12.327 +07:00 [DBG] Connection id "0HMVN0OLAMRAU" disconnecting.
+2023-12-07 16:26:12.327 +07:00 [DBG] Connection id "0HMVN0OLAMRAU" stopped.
+2023-12-07 16:28:40.890 +07:00 [DBG] Connection id "0HMVN0OLAMRAV" accepted.
+2023-12-07 16:28:40.898 +07:00 [DBG] Connection id "0HMVN0OLAMRAV" started.
+2023-12-07 16:28:40.898 +07:00 [INF] Request starting HTTP/1.1 PATCH http://localhost:5225/api/Villa/3 application/json-patch+json 78
+2023-12-07 16:28:40.903 +07:00 [DBG] 1 candidate(s) found for the request path '/api/Villa/3'
+2023-12-07 16:28:40.906 +07:00 [DBG] Endpoint 'Moc.Controllers.VillaController.UpdatePartialVilla (Moc)' with route pattern 'api/Villa/{id:int}' is valid for the request path '/api/Villa/3'
+2023-12-07 16:28:40.906 +07:00 [DBG] Request matched endpoint 'Moc.Controllers.VillaController.UpdatePartialVilla (Moc)'
+2023-12-07 16:28:40.907 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-12-07 16:28:40.912 +07:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2023-12-07 16:28:40.913 +07:00 [INF] Executing endpoint 'Moc.Controllers.VillaController.UpdatePartialVilla (Moc)'
+2023-12-07 16:28:40.913 +07:00 [INF] Route matched with {action = "UpdatePartialVilla", controller = "Villa"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] UpdatePartialVilla(Int32, Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1[Moc.DTO.VillaUpdateDTO]) on controller Moc.Controllers.VillaController (Moc).
+2023-12-07 16:28:40.913 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-12-07 16:28:40.913 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-12-07 16:28:40.913 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-12-07 16:28:40.913 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-12-07 16:28:40.913 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-12-07 16:28:40.913 +07:00 [DBG] Executing controller factory for controller Moc.Controllers.VillaController (Moc)
+2023-12-07 16:28:40.915 +07:00 [DBG] Executed controller factory for controller Moc.Controllers.VillaController (Moc)
+2023-12-07 16:28:40.916 +07:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' ...
+2023-12-07 16:28:40.920 +07:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2023-12-07 16:28:40.921 +07:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2023-12-07 16:28:40.921 +07:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2023-12-07 16:28:40.921 +07:00 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2023-12-07 16:28:40.921 +07:00 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2023-12-07 16:28:40.921 +07:00 [DBG] Attempting to bind parameter 'patchDTO' of type 'Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1[Moc.DTO.VillaUpdateDTO]' ...
+2023-12-07 16:28:40.921 +07:00 [DBG] Attempting to bind parameter 'patchDTO' of type 'Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1[Moc.DTO.VillaUpdateDTO]' using the name '' in request data ...
+2023-12-07 16:28:40.921 +07:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonPatchInputFormatter' for content type 'application/json-patch+json'.
+2023-12-07 16:28:40.921 +07:00 [DBG] Connection id "0HMVN0OLAMRAV", Request id "0HMVN0OLAMRAV:00000001": started reading request body.
+2023-12-07 16:28:40.921 +07:00 [DBG] Connection id "0HMVN0OLAMRAV", Request id "0HMVN0OLAMRAV:00000001": done reading request body.
+2023-12-07 16:28:40.923 +07:00 [DBG] Done attempting to bind parameter 'patchDTO' of type 'Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1[Moc.DTO.VillaUpdateDTO]'.
+2023-12-07 16:28:40.923 +07:00 [DBG] Done attempting to bind parameter 'patchDTO' of type 'Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1[Moc.DTO.VillaUpdateDTO]'.
+2023-12-07 16:28:40.923 +07:00 [DBG] Attempting to validate the bound parameter 'patchDTO' of type 'Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1[Moc.DTO.VillaUpdateDTO]' ...
+2023-12-07 16:28:40.924 +07:00 [DBG] Done attempting to validate the bound parameter 'patchDTO' of type 'Microsoft.AspNetCore.JsonPatch.JsonPatchDocument`1[Moc.DTO.VillaUpdateDTO]'.
+2023-12-07 16:28:40.937 +07:00 [DBG] Entity Framework Core 7.0.14 initialized 'ApplicationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.14' with options: None
+2023-12-07 16:28:40.943 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-12-07 16:28:40.943 +07:00 [DBG] Creating DbConnection.
+2023-12-07 16:28:40.944 +07:00 [DBG] Created DbConnection. (0ms).
+2023-12-07 16:28:40.944 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2023-12-07 16:28:40.944 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (2ms).
+2023-12-07 16:28:40.944 +07:00 [DBG] Opening connection to database 'VillaDb' on server '.'.
+2023-12-07 16:28:40.947 +07:00 [DBG] Opened connection to database 'VillaDb' on server '.'.
+2023-12-07 16:28:40.948 +07:00 [DBG] Executing DbCommand [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [v].[Id], [v].[Amenity], [v].[CreatedDate], [v].[Details], [v].[ImageUrl], [v].[Name], [v].[Occupancy], [v].[Rate], [v].[Sqft], [v].[UpdatedDate]
+FROM [Villas] AS [v]
+WHERE [v].[Id] = @__id_0
+2023-12-07 16:28:40.955 +07:00 [INF] Executed DbCommand (7ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [v].[Id], [v].[Amenity], [v].[CreatedDate], [v].[Details], [v].[ImageUrl], [v].[Name], [v].[Occupancy], [v].[Rate], [v].[Sqft], [v].[UpdatedDate]
+FROM [Villas] AS [v]
+WHERE [v].[Id] = @__id_0
+2023-12-07 16:28:40.955 +07:00 [DBG] Closing data reader to 'VillaDb' on server '.'.
+2023-12-07 16:28:40.956 +07:00 [DBG] A data reader for 'VillaDb' on server '.' is being disposed after spending 0ms reading results.
+2023-12-07 16:28:40.956 +07:00 [DBG] Closing connection to database 'VillaDb' on server '.'.
+2023-12-07 16:28:40.956 +07:00 [DBG] Closed connection to database 'VillaDb' on server '.' (0ms).
+2023-12-07 16:28:41.019 +07:00 [DBG] Context 'ApplicationContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-12-07 16:28:41.025 +07:00 [DBG] SaveChanges starting for 'ApplicationContext'.
+2023-12-07 16:28:41.028 +07:00 [DBG] DetectChanges starting for 'ApplicationContext'.
+2023-12-07 16:28:41.032 +07:00 [DBG] DetectChanges completed for 'ApplicationContext'.
+2023-12-07 16:28:41.082 +07:00 [DBG] Opening connection to database 'VillaDb' on server '.'.
+2023-12-07 16:28:41.082 +07:00 [DBG] Opened connection to database 'VillaDb' on server '.'.
+2023-12-07 16:28:41.084 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-12-07 16:28:41.084 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-12-07 16:28:41.085 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2023-12-07 16:28:41.085 +07:00 [DBG] Executing DbCommand [Parameters=[@p9='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = Int32), @p6='?' (DbType = Double), @p7='?' (DbType = Int32), @p8='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Villas] SET [Amenity] = @p0, [CreatedDate] = @p1, [Details] = @p2, [ImageUrl] = @p3, [Name] = @p4, [Occupancy] = @p5, [Rate] = @p6, [Sqft] = @p7, [UpdatedDate] = @p8
+OUTPUT 1
+WHERE [Id] = @p9;
+2023-12-07 16:28:41.137 +07:00 [INF] Executed DbCommand (51ms) [Parameters=[@p9='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (DbType = Int32), @p6='?' (DbType = Double), @p7='?' (DbType = Int32), @p8='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Villas] SET [Amenity] = @p0, [CreatedDate] = @p1, [Details] = @p2, [ImageUrl] = @p3, [Name] = @p4, [Occupancy] = @p5, [Rate] = @p6, [Sqft] = @p7, [UpdatedDate] = @p8
+OUTPUT 1
+WHERE [Id] = @p9;
+2023-12-07 16:28:41.141 +07:00 [DBG] Closing data reader to 'VillaDb' on server '.'.
+2023-12-07 16:28:41.142 +07:00 [DBG] A data reader for 'VillaDb' on server '.' is being disposed after spending 4ms reading results.
+2023-12-07 16:28:41.143 +07:00 [DBG] Closing connection to database 'VillaDb' on server '.'.
+2023-12-07 16:28:41.143 +07:00 [DBG] Closed connection to database 'VillaDb' on server '.' (0ms).
+2023-12-07 16:28:41.149 +07:00 [DBG] An entity of type 'Villa' tracked by 'ApplicationContext' changed state from '"Modified"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-12-07 16:28:41.151 +07:00 [DBG] SaveChanges completed for 'ApplicationContext' with 1 entities written to the database.
+2023-12-07 16:28:41.152 +07:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2023-12-07 16:28:41.152 +07:00 [INF] Executed action Moc.Controllers.VillaController.UpdatePartialVilla (Moc) in 238.9243ms
+2023-12-07 16:28:41.152 +07:00 [INF] Executed endpoint 'Moc.Controllers.VillaController.UpdatePartialVilla (Moc)'
+2023-12-07 16:28:41.152 +07:00 [DBG] Connection id "0HMVN0OLAMRAV" completed keep alive response.
+2023-12-07 16:28:41.152 +07:00 [DBG] 'ApplicationContext' disposed.
+2023-12-07 16:28:41.153 +07:00 [DBG] Disposing connection to database 'VillaDb' on server '.'.
+2023-12-07 16:28:41.153 +07:00 [DBG] Disposed connection to database '' on server '' (0ms).
+2023-12-07 16:28:41.153 +07:00 [INF] Request finished HTTP/1.1 PATCH http://localhost:5225/api/Villa/3 application/json-patch+json 78 - 204 - - 254.5389ms
+2023-12-07 16:28:47.574 +07:00 [DBG] Connection id "0HMVN0OLAMRAV" received FIN.
+2023-12-07 16:28:47.575 +07:00 [DBG] Connection id "0HMVN0OLAMRAV" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-12-07 16:28:47.575 +07:00 [DBG] Connection id "0HMVN0OLAMRAV" disconnecting.
+2023-12-07 16:28:47.575 +07:00 [DBG] Connection id "0HMVN0OLAMRAV" stopped.
+2023-12-07 16:29:10.439 +07:00 [DBG] Connection id "0HMVN0OLAMRB0" accepted.
+2023-12-07 16:29:10.446 +07:00 [DBG] Connection id "0HMVN0OLAMRB0" started.
+2023-12-07 16:29:10.446 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5225/api/Villa - -
+2023-12-07 16:29:10.447 +07:00 [DBG] 1 candidate(s) found for the request path '/api/Villa'
+2023-12-07 16:29:10.447 +07:00 [DBG] Endpoint 'Moc.Controllers.VillaController.GetVillas (Moc)' with route pattern 'api/Villa' is valid for the request path '/api/Villa'
+2023-12-07 16:29:10.447 +07:00 [DBG] Request matched endpoint 'Moc.Controllers.VillaController.GetVillas (Moc)'
+2023-12-07 16:29:10.448 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-12-07 16:29:10.603 +07:00 [DBG] Successfully validated the token.
+2023-12-07 16:29:10.604 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2023-12-07 16:29:10.608 +07:00 [DBG] Authorization was successful.
+2023-12-07 16:29:10.609 +07:00 [INF] Executing endpoint 'Moc.Controllers.VillaController.GetVillas (Moc)'
+2023-12-07 16:29:10.611 +07:00 [INF] Route matched with {action = "GetVillas", controller = "Villa"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Moc.Models.APIResponse]] GetVillas(System.String) on controller Moc.Controllers.VillaController (Moc).
+2023-12-07 16:29:10.611 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-12-07 16:29:10.611 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-12-07 16:29:10.612 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-12-07 16:29:10.612 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-12-07 16:29:10.612 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-12-07 16:29:10.612 +07:00 [DBG] Executing controller factory for controller Moc.Controllers.VillaController (Moc)
+2023-12-07 16:29:10.613 +07:00 [DBG] Executed controller factory for controller Moc.Controllers.VillaController (Moc)
+2023-12-07 16:29:10.613 +07:00 [DBG] Attempting to bind parameter 'query' of type 'System.String' ...
+2023-12-07 16:29:10.613 +07:00 [DBG] Attempting to bind parameter 'query' of type 'System.String' using the name '' in request data ...
+2023-12-07 16:29:10.614 +07:00 [DBG] Could not find a value in the request with name '' for binding parameter 'query' of type 'System.String'.
+2023-12-07 16:29:10.614 +07:00 [DBG] Done attempting to bind parameter 'query' of type 'System.String'.
+2023-12-07 16:29:10.614 +07:00 [DBG] Done attempting to bind parameter 'query' of type 'System.String'.
+2023-12-07 16:29:10.614 +07:00 [DBG] Attempting to validate the bound parameter 'query' of type 'System.String' ...
+2023-12-07 16:29:10.614 +07:00 [DBG] Done attempting to validate the bound parameter 'query' of type 'System.String'.
+2023-12-07 16:29:10.676 +07:00 [DBG] Entity Framework Core 7.0.14 initialized 'ApplicationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.14' with options: None
+2023-12-07 16:29:11.543 +07:00 [DBG] Compiling query expression: 
+'DbSet<Villa>()
+    .OrderBy( => .Name)'
+2023-12-07 16:29:11.550 +07:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Villa>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Villa.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Villa.Amenity (string) Required, 1], [Property: Villa.CreatedDate (DateTime) Required, 2], [Property: Villa.Details (string) Required, 3], [Property: Villa.ImageUrl (string) Required, 4], [Property: Villa.Name (string) Required, 5], [Property: Villa.Occupancy (int) Required, 6], [Property: Villa.Rate (double) Required, 7], [Property: Villa.Sqft (int) Required, 8], [Property: Villa.UpdatedDate (DateTime) Required, 9] }
+        SELECT v.Id, v.Amenity, v.CreatedDate, v.Details, v.ImageUrl, v.Name, v.Occupancy, v.Rate, v.Sqft, v.UpdatedDate
+        FROM Villas AS v
+        ORDER BY v.Name ASC), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Villa>, 
+    Moc.Data.ApplicationContext, 
+    False, 
+    False, 
+    True
+)'
+2023-12-07 16:29:11.551 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-12-07 16:29:11.551 +07:00 [DBG] Creating DbConnection.
+2023-12-07 16:29:11.551 +07:00 [DBG] Created DbConnection. (0ms).
+2023-12-07 16:29:11.551 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2023-12-07 16:29:11.551 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2023-12-07 16:29:11.551 +07:00 [DBG] Opening connection to database 'VillaDb' on server '.'.
+2023-12-07 16:29:11.551 +07:00 [DBG] Opened connection to database 'VillaDb' on server '.'.
+2023-12-07 16:29:11.551 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[Amenity], [v].[CreatedDate], [v].[Details], [v].[ImageUrl], [v].[Name], [v].[Occupancy], [v].[Rate], [v].[Sqft], [v].[UpdatedDate]
+FROM [Villas] AS [v]
+ORDER BY [v].[Name]
+2023-12-07 16:29:11.572 +07:00 [INF] Executed DbCommand (21ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[Amenity], [v].[CreatedDate], [v].[Details], [v].[ImageUrl], [v].[Name], [v].[Occupancy], [v].[Rate], [v].[Sqft], [v].[UpdatedDate]
+FROM [Villas] AS [v]
+ORDER BY [v].[Name]
+2023-12-07 16:29:11.574 +07:00 [DBG] Context 'ApplicationContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-12-07 16:29:11.575 +07:00 [DBG] Context 'ApplicationContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-12-07 16:29:11.575 +07:00 [DBG] Closing data reader to 'VillaDb' on server '.'.
+2023-12-07 16:29:11.575 +07:00 [DBG] A data reader for 'VillaDb' on server '.' is being disposed after spending 3ms reading results.
+2023-12-07 16:29:11.575 +07:00 [DBG] Closing connection to database 'VillaDb' on server '.'.
+2023-12-07 16:29:11.575 +07:00 [DBG] Closed connection to database 'VillaDb' on server '.' (0ms).
+2023-12-07 16:29:11.586 +07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2023-12-07 16:29:11.588 +07:00 [DBG] Attempting to select an output formatter based on Accept header '["application/json"]'.
+2023-12-07 16:29:11.589 +07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-12-07 16:29:11.589 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Moc.DTO.VillaDTO, Moc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-12-07 16:29:11.615 +07:00 [INF] Executed action Moc.Controllers.VillaController.GetVillas (Moc) in 1003.2914ms
+2023-12-07 16:29:11.615 +07:00 [INF] Executed endpoint 'Moc.Controllers.VillaController.GetVillas (Moc)'
+2023-12-07 16:29:11.615 +07:00 [DBG] Connection id "0HMVN0OLAMRB0" completed keep alive response.
+2023-12-07 16:29:11.615 +07:00 [DBG] 'ApplicationContext' disposed.
+2023-12-07 16:29:11.615 +07:00 [DBG] Disposing connection to database 'VillaDb' on server '.'.
+2023-12-07 16:29:11.615 +07:00 [DBG] Disposed connection to database '' on server '' (0ms).
+2023-12-07 16:29:11.615 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5225/api/Villa - - - 200 252 application/json;+charset=utf-8 1168.6378ms
+2023-12-07 16:29:17.594 +07:00 [DBG] Connection id "0HMVN0OLAMRB0" received FIN.
+2023-12-07 16:29:17.594 +07:00 [DBG] Connection id "0HMVN0OLAMRB0" disconnecting.
+2023-12-07 16:29:17.594 +07:00 [DBG] Connection id "0HMVN0OLAMRB0" stopped.
+2023-12-07 16:29:17.595 +07:00 [DBG] Connection id "0HMVN0OLAMRB0" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-12-07 16:44:32.624 +07:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-12-07 16:44:32.724 +07:00 [DBG] Hosting starting
+2023-12-07 16:44:32.749 +07:00 [INF] User profile is available. Using 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-12-07 16:44:32.753 +07:00 [DBG] Reading data from file 'C:\Users\Admin\AppData\Local\ASP.NET\DataProtection-Keys\key-89ab2015-9967-47e1-965a-65d13ae4bf9f.xml'.
+2023-12-07 16:44:32.768 +07:00 [DBG] Found key {89ab2015-9967-47e1-965a-65d13ae4bf9f}.
+2023-12-07 16:44:32.778 +07:00 [DBG] Considering key {89ab2015-9967-47e1-965a-65d13ae4bf9f} with expiration date 2024-02-25 02:03:06Z as default key.
+2023-12-07 16:44:32.782 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-12-07 16:44:32.784 +07:00 [DBG] Decrypting secret element using Windows DPAPI.
+2023-12-07 16:44:32.786 +07:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=7.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2023-12-07 16:44:32.790 +07:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2023-12-07 16:44:32.792 +07:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2023-12-07 16:44:32.793 +07:00 [DBG] Using key {89ab2015-9967-47e1-965a-65d13ae4bf9f} as the default key.
+2023-12-07 16:44:32.793 +07:00 [DBG] Key ring with default key {89ab2015-9967-47e1-965a-65d13ae4bf9f} was loaded during application startup.
+2023-12-07 16:44:32.944 +07:00 [INF] Now listening on: http://localhost:5225
+2023-12-07 16:44:32.944 +07:00 [DBG] Loaded hosting startup assembly Moc
+2023-12-07 16:44:32.944 +07:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-12-07 16:44:32.944 +07:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-12-07 16:44:32.944 +07:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-12-07 16:44:32.944 +07:00 [INF] Hosting environment: Development
+2023-12-07 16:44:32.944 +07:00 [INF] Content root path: D:\Moc
+2023-12-07 16:44:32.944 +07:00 [DBG] Hosting started
+2023-12-07 16:44:33.112 +07:00 [DBG] Connection id "0HMVN14EU2F83" received FIN.
+2023-12-07 16:44:33.112 +07:00 [DBG] Connection id "0HMVN14EU2F82" received FIN.
+2023-12-07 16:44:33.122 +07:00 [DBG] Connection id "0HMVN14EU2F83" accepted.
+2023-12-07 16:44:33.122 +07:00 [DBG] Connection id "0HMVN14EU2F82" accepted.
+2023-12-07 16:44:33.123 +07:00 [DBG] Connection id "0HMVN14EU2F82" started.
+2023-12-07 16:44:33.123 +07:00 [DBG] Connection id "0HMVN14EU2F83" started.
+2023-12-07 16:44:33.133 +07:00 [DBG] Connection id "0HMVN14EU2F82" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-12-07 16:44:33.133 +07:00 [DBG] Connection id "0HMVN14EU2F83" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-12-07 16:44:33.135 +07:00 [DBG] Connection id "0HMVN14EU2F83" disconnecting.
+2023-12-07 16:44:33.135 +07:00 [DBG] Connection id "0HMVN14EU2F82" disconnecting.
+2023-12-07 16:44:33.138 +07:00 [DBG] Connection id "0HMVN14EU2F82" stopped.
+2023-12-07 16:44:33.138 +07:00 [DBG] Connection id "0HMVN14EU2F83" stopped.
+2023-12-07 16:44:33.861 +07:00 [DBG] Connection id "0HMVN14EU2F84" accepted.
+2023-12-07 16:44:33.862 +07:00 [DBG] Connection id "0HMVN14EU2F85" accepted.
+2023-12-07 16:44:33.862 +07:00 [DBG] Connection id "0HMVN14EU2F84" started.
+2023-12-07 16:44:33.863 +07:00 [DBG] Connection id "0HMVN14EU2F85" started.
+2023-12-07 16:44:33.915 +07:00 [DBG] Connection id "0HMVN14EU2F84" received FIN.
+2023-12-07 16:44:33.915 +07:00 [DBG] Connection id "0HMVN14EU2F85" received FIN.
+2023-12-07 16:44:33.923 +07:00 [DBG] Connection id "0HMVN14EU2F84" disconnecting.
+2023-12-07 16:44:33.930 +07:00 [DBG] Connection id "0HMVN14EU2F84" stopped.
+2023-12-07 16:44:33.972 +07:00 [DBG] Connection id "0HMVN14EU2F86" accepted.
+2023-12-07 16:44:33.973 +07:00 [DBG] Connection id "0HMVN14EU2F85" disconnecting.
+2023-12-07 16:44:33.973 +07:00 [DBG] Connection id "0HMVN14EU2F85" stopped.
+2023-12-07 16:44:33.975 +07:00 [DBG] Connection id "0HMVN14EU2F84" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-12-07 16:44:33.976 +07:00 [DBG] Connection id "0HMVN14EU2F86" started.
+2023-12-07 16:44:33.981 +07:00 [DBG] Connection id "0HMVN14EU2F85" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-12-07 16:44:34.102 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5225/swagger/index.html - -
+2023-12-07 16:44:34.157 +07:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-12-07 16:44:34.219 +07:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-12-07 16:44:34.219 +07:00 [DBG] Request did not match any endpoints
+2023-12-07 16:44:34.492 +07:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-12-07 16:44:34.684 +07:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-12-07 16:44:34.685 +07:00 [DBG] Connection id "0HMVN14EU2F86" completed keep alive response.
+2023-12-07 16:44:34.691 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5225/swagger/index.html - - - 200 - text/html;charset=utf-8 590.2243ms
+2023-12-07 16:44:34.794 +07:00 [DBG] Connection id "0HMVN14EU2F87" accepted.
+2023-12-07 16:44:34.800 +07:00 [DBG] Connection id "0HMVN14EU2F87" started.
+2023-12-07 16:44:34.801 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5225/_vs/browserLink - -
+2023-12-07 16:44:34.804 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5225/_framework/aspnetcore-browser-refresh.js - -
+2023-12-07 16:44:34.809 +07:00 [DBG] Connection id "0HMVN14EU2F86" completed keep alive response.
+2023-12-07 16:44:34.810 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5225/_framework/aspnetcore-browser-refresh.js - - - 200 12338 application/javascript;+charset=utf-8 6.2185ms
+2023-12-07 16:44:34.858 +07:00 [DBG] Connection id "0HMVN14EU2F87" completed keep alive response.
+2023-12-07 16:44:34.858 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5225/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 56.4068ms
+2023-12-07 16:44:36.434 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5225/swagger/v1/swagger.json - -
+2023-12-07 16:44:36.436 +07:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-12-07 16:44:36.436 +07:00 [DBG] Request did not match any endpoints
+2023-12-07 16:44:36.703 +07:00 [DBG] Connection id "0HMVN14EU2F87" completed keep alive response.
+2023-12-07 16:44:36.704 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5225/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 269.1241ms
+2023-12-07 16:44:43.912 +07:00 [DBG] Connection id "0HMVN14EU2F86" received FIN.
+2023-12-07 16:44:43.912 +07:00 [DBG] Connection id "0HMVN14EU2F87" received FIN.
+2023-12-07 16:44:43.913 +07:00 [DBG] Connection id "0HMVN14EU2F86" disconnecting.
+2023-12-07 16:44:43.913 +07:00 [DBG] Connection id "0HMVN14EU2F87" disconnecting.
+2023-12-07 16:44:43.913 +07:00 [DBG] Connection id "0HMVN14EU2F86" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-12-07 16:44:43.913 +07:00 [DBG] Connection id "0HMVN14EU2F87" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-12-07 16:44:43.927 +07:00 [DBG] Connection id "0HMVN14EU2F86" stopped.
+2023-12-07 16:44:43.927 +07:00 [DBG] Connection id "0HMVN14EU2F87" stopped.
+2023-12-07 16:45:05.980 +07:00 [DBG] Connection id "0HMVN14EU2F88" accepted.
+2023-12-07 16:45:05.981 +07:00 [DBG] Connection id "0HMVN14EU2F88" started.
+2023-12-07 16:45:05.981 +07:00 [INF] Request starting HTTP/1.1 GET http://localhost:5225/api/Villa - -
+2023-12-07 16:45:05.994 +07:00 [DBG] 1 candidate(s) found for the request path '/api/Villa'
+2023-12-07 16:45:05.997 +07:00 [DBG] Endpoint 'Moc.Controllers.VillaController.GetVillas (Moc)' with route pattern 'api/Villa' is valid for the request path '/api/Villa'
+2023-12-07 16:45:05.997 +07:00 [DBG] Request matched endpoint 'Moc.Controllers.VillaController.GetVillas (Moc)'
+2023-12-07 16:45:05.999 +07:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-12-07 16:45:06.001 +07:00 [WRN] Failed to determine the https port for redirect.
+2023-12-07 16:45:06.330 +07:00 [DBG] Successfully validated the token.
+2023-12-07 16:45:06.331 +07:00 [DBG] AuthenticationScheme: Bearer was successfully authenticated.
+2023-12-07 16:45:06.336 +07:00 [DBG] Authorization was successful.
+2023-12-07 16:45:06.338 +07:00 [INF] Executing endpoint 'Moc.Controllers.VillaController.GetVillas (Moc)'
+2023-12-07 16:45:06.381 +07:00 [INF] Route matched with {action = "GetVillas", controller = "Villa"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Moc.Models.APIResponse]] GetVillas(System.String) on controller Moc.Controllers.VillaController (Moc).
+2023-12-07 16:45:06.383 +07:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-12-07 16:45:06.383 +07:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-12-07 16:45:06.384 +07:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-12-07 16:45:06.384 +07:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-12-07 16:45:06.384 +07:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-12-07 16:45:06.386 +07:00 [DBG] Executing controller factory for controller Moc.Controllers.VillaController (Moc)
+2023-12-07 16:45:06.575 +07:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-12-07 16:45:06.661 +07:00 [DBG] Executed controller factory for controller Moc.Controllers.VillaController (Moc)
+2023-12-07 16:45:06.665 +07:00 [DBG] Attempting to bind parameter 'query' of type 'System.String' ...
+2023-12-07 16:45:06.666 +07:00 [DBG] Attempting to bind parameter 'query' of type 'System.String' using the name '' in request data ...
+2023-12-07 16:45:06.666 +07:00 [DBG] Could not find a value in the request with name '' for binding parameter 'query' of type 'System.String'.
+2023-12-07 16:45:06.666 +07:00 [DBG] Done attempting to bind parameter 'query' of type 'System.String'.
+2023-12-07 16:45:06.667 +07:00 [DBG] Done attempting to bind parameter 'query' of type 'System.String'.
+2023-12-07 16:45:06.667 +07:00 [DBG] Attempting to validate the bound parameter 'query' of type 'System.String' ...
+2023-12-07 16:45:06.667 +07:00 [DBG] Done attempting to validate the bound parameter 'query' of type 'System.String'.
+2023-12-07 16:45:07.148 +07:00 [DBG] Entity Framework Core 7.0.14 initialized 'ApplicationContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:7.0.14' with options: None
+2023-12-07 16:45:08.216 +07:00 [DBG] Compiling query expression: 
+'DbSet<Villa>()
+    .OrderBy( => .Name)'
+2023-12-07 16:45:08.346 +07:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<Villa>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: Villa.Id (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: Villa.Amenity (string) Required, 1], [Property: Villa.CreatedDate (DateTime) Required, 2], [Property: Villa.Details (string) Required, 3], [Property: Villa.ImageUrl (string) Required, 4], [Property: Villa.Name (string) Required, 5], [Property: Villa.Occupancy (int) Required, 6], [Property: Villa.Rate (double) Required, 7], [Property: Villa.Sqft (int) Required, 8], [Property: Villa.UpdatedDate (DateTime) Required, 9] }
+        SELECT v.Id, v.Amenity, v.CreatedDate, v.Details, v.ImageUrl, v.Name, v.Occupancy, v.Rate, v.Sqft, v.UpdatedDate
+        FROM Villas AS v
+        ORDER BY v.Name ASC), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, Villa>, 
+    Moc.Data.ApplicationContext, 
+    False, 
+    False, 
+    True
+)'
+2023-12-07 16:45:08.376 +07:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2023-12-07 16:45:08.378 +07:00 [DBG] Creating DbConnection.
+2023-12-07 16:45:08.402 +07:00 [DBG] Created DbConnection. (21ms).
+2023-12-07 16:45:08.411 +07:00 [DBG] Created DbCommand for 'ExecuteReader' (33ms).
+2023-12-07 16:45:08.412 +07:00 [DBG] Initialized DbCommand for 'ExecuteReader' (38ms).
+2023-12-07 16:45:08.415 +07:00 [DBG] Opening connection to database 'VillaDb' on server '.'.
+2023-12-07 16:45:08.648 +07:00 [DBG] Opened connection to database 'VillaDb' on server '.'.
+2023-12-07 16:45:08.655 +07:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[Amenity], [v].[CreatedDate], [v].[Details], [v].[ImageUrl], [v].[Name], [v].[Occupancy], [v].[Rate], [v].[Sqft], [v].[UpdatedDate]
+FROM [Villas] AS [v]
+ORDER BY [v].[Name]
+2023-12-07 16:45:08.742 +07:00 [INF] Executed DbCommand (86ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [v].[Id], [v].[Amenity], [v].[CreatedDate], [v].[Details], [v].[ImageUrl], [v].[Name], [v].[Occupancy], [v].[Rate], [v].[Sqft], [v].[UpdatedDate]
+FROM [Villas] AS [v]
+ORDER BY [v].[Name]
+2023-12-07 16:45:08.780 +07:00 [DBG] Context 'ApplicationContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-12-07 16:45:08.815 +07:00 [DBG] Context 'ApplicationContext' started tracking 'Villa' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2023-12-07 16:45:08.819 +07:00 [DBG] Closing data reader to 'VillaDb' on server '.'.
+2023-12-07 16:45:08.827 +07:00 [DBG] A data reader for 'VillaDb' on server '.' is being disposed after spending 78ms reading results.
+2023-12-07 16:45:08.830 +07:00 [DBG] Closing connection to database 'VillaDb' on server '.'.
+2023-12-07 16:45:08.835 +07:00 [DBG] Closed connection to database 'VillaDb' on server '.' (4ms).
+2023-12-07 16:45:08.859 +07:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.XmlDataContractSerializerOutputFormatter"]
+2023-12-07 16:45:08.861 +07:00 [DBG] Attempting to select an output formatter based on Accept header '["application/json"]'.
+2023-12-07 16:45:08.862 +07:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.NewtonsoftJsonOutputFormatter' and content type 'application/json' to write the response.
+2023-12-07 16:45:08.862 +07:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Moc.DTO.VillaDTO, Moc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-12-07 16:45:08.964 +07:00 [INF] Executed action Moc.Controllers.VillaController.GetVillas (Moc) in 2575.8105ms
+2023-12-07 16:45:08.964 +07:00 [INF] Executed endpoint 'Moc.Controllers.VillaController.GetVillas (Moc)'
+2023-12-07 16:45:08.965 +07:00 [DBG] Connection id "0HMVN14EU2F88" completed keep alive response.
+2023-12-07 16:45:08.967 +07:00 [DBG] 'ApplicationContext' disposed.
+2023-12-07 16:45:08.972 +07:00 [DBG] Disposing connection to database 'VillaDb' on server '.'.
+2023-12-07 16:45:08.973 +07:00 [DBG] Disposed connection to database '' on server '' (1ms).
+2023-12-07 16:45:08.974 +07:00 [INF] Request finished HTTP/1.1 GET http://localhost:5225/api/Villa - - - 200 252 application/json;+charset=utf-8 2992.4608ms
+2023-12-07 16:45:13.939 +07:00 [DBG] Connection id "0HMVN14EU2F88" received FIN.
+2023-12-07 16:45:13.939 +07:00 [DBG] Connection id "0HMVN14EU2F88" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-12-07 16:45:13.939 +07:00 [DBG] Connection id "0HMVN14EU2F88" disconnecting.
+2023-12-07 16:45:13.940 +07:00 [DBG] Connection id "0HMVN14EU2F88" stopped.
